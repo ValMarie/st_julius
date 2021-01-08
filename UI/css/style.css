@@ -1,0 +1,278 @@
+*{
+    padding: 0px;
+    margin: 0px;
+ }
+ 
+ body {
+   background-attachment: fixed;   
+ }
+ .content{
+   /* opacity: 0.8; */
+   background-position: center;
+   background-size: cover;
+   background-attachment: fixed;
+   background-repeat: none;
+ }
+
+ h1, h2, h3, h4, h5, h6 {
+    color: #e4932a;
+    font-weight: bolder;
+ }
+
+ .f_regular {
+    font-family: 'Galada', cursive;
+ }
+
+ nav{
+     font-family: Arial, Helvetica, sans-serif;
+     transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+ }
+
+ nav.faded{
+    opacity:0;
+ }
+
+ .nav-item:hover{
+     border-bottom: 1px solid#e4932a;
+     padding: 0;
+     margin: 0;
+ }
+
+ .big-text{
+     font-size: 4em;
+     color: white;
+     margin-top: 100px;
+     padding: 100px 100px 20px 100px;
+     font-weight: 100;
+ }
+
+ .small-text{
+     color: white;
+     font-style: italic;
+     font-size: 1.5em;
+     padding-left: 100px;
+ }
+ 
+ .myHero{
+    height: 100vh;
+    background-image: url('../../assets/interior2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;  
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+.bs{
+    box-shadow: none;
+}
+
+.myMask{
+    background-color: #f8975755;
+    height: inherit;
+}
+
+.myMask2 {
+    background-color: #000000;
+    height: 100vh;
+}
+
+.mask-up{
+    background-color: #000000cc;
+    height: 100vh;
+    margin-top: -100vh;
+}
+
+.heroContent{
+    height: 400px;
+    /* opacity: 0.8;   */
+ }
+
+.textInHero{
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.welcomeHead, .about_us_head, .project_head,
+.contact_head, .communities_head, .services_head {
+   font-size: 2em !important;
+   font-weight: 900;
+}
+
+.body{
+    font-size: 1em;
+    color: rgb(173, 106, 18);
+    word-spacing: 9px;
+}
+/* li a {
+    line-height: 30px;
+    color: white !important;
+    list-style-type: none;
+} */
+
+.quotes{
+    font-style: italic;
+    text-align: center;
+}
+
+.testimony{
+    /* background-image: url('../../assets/interior.jpg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 700;
+}
+
+ button { 
+     background-color: rgb(131, 79, 11);
+     color: bisque;
+     width: 150px;
+ }
+
+ .myCards{
+     min-height: 100px;
+ }
+
+ .myCard{
+     min-height: 100px;
+     padding : 10px;
+
+ }
+
+ .nav-link {
+     color : #fff;
+     padding: 0px;
+ }
+
+ /* .navbar .dropdown-menu{
+    background: #e4932abc;
+    color : #ffffff !important;
+ } */
+
+  .dropdown:hover .dropdown-menu {
+    background: #e4932abc;
+    color : #ffffff;
+    display: block;
+ } 
+
+.about_us{
+    background-image: url("../../assets/side_about.jpg");
+    background-attachment: fixed;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+ }
+
+ /* .d-block{
+     opacity: 0.8;
+     max-height: 250px;
+ } */
+
+.p_priest{
+    background-image: url("../../assets/Fr_gilbert.jpg");
+}
+
+.a_priest{
+     background-image: url("../../assets/aP.jpg");
+ }
+
+ .catechist{
+    background-image: url("https://images.pexels.com/photos/2232981/pexels-photo-2232981.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+}
+
+.portriat{
+    color: white;
+    justify-content: end;
+    padding: 180px 0px 60px 100px;
+    font-size: 1.2em;
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.landscape{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    height: 200px;
+    padding: 180px 0 60px 100px;
+    color: white;
+}
+
+ .project_subhead{
+     text-align: center;
+ }
+ .as{
+     background-image: url("https://images.pexels.com/photos/2675266/pexels-photo-2675266.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+ }
+ .at{
+     background-image: url("https://as1.ftcdn.net/jpg/02/88/54/58/500_F_288545814_yJBQMt3guOwOVSbJmNHmmzoDBU5jAWvy.jpg");
+ }
+ .au{
+     background-image: url("https://images.pexels.com/photos/3009993/pexels-photo-3009993.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+ }
+ .av{
+    background-image: url("https://images.pexels.com/photos/70419/pexels-photo-70419.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+}
+
+.landscape_large{
+    min-height: 500px !important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+.page-footer{
+   background-color: #e5b494 !important;
+}
+.footer-copyright{
+   background: #f48236d1;
+   }
+
+.communities_body{
+    background-image: url("https://cdn.dribbble.com/users/1841918/screenshots/10485272/media/a24eb75b40f5f6a3c6d465ad7b3edc8c.png");
+    }
+.services_body {
+    background-image: url("https://cdn.dribbble.com/users/4564986/screenshots/10768036/media/1191ecaa2fa2d37973f2b74b484a4f1b.jpg");
+}
+.communities_body, .services_body {
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ .card-image-x { 
+    background-image: url('../../assets/vatican.jpg');
+}
+.card-image-y {
+    background-image: url('../../assets/bible_n_rosary.jpg');
+}
+.card-image-z {
+    background-image: url('../../assets/The_Priest.jpg');
+}
+
+.card-image-x, .card-image-y, .card-image-z {
+    background-repeat: no-repeat;
+    background-size: cover; 
+    color: white;
+    min-height: 200px;
+}
+
+.navbar .dropdown-menu a:not(.active) {
+    color: #ffffff;
+}
+
+.dropdown {
+    list-style-type: none;
+    color: white;
+}
+
+.nav-item:hover.dropdown{
+    display: block !important;
+    
+}
