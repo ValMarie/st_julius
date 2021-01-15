@@ -102,5 +102,3 @@ const scrollToView = (id) => {
   let selected = document.querySelector(id);
   selected.scrollIntoView({behavior: "smooth", block: "center"});
 }
-
-const baptism_pics = "//nebula.wsimg.com/95077b3c30f31304d82a8a11602750b3?AccessKeyId=06D2F9FD645118A40673"

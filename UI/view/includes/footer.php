@@ -93,13 +93,13 @@
 
         <ul class="list-unstyled">
           <li>
-              <i class="fas fa-home mr-3"></i> Orudu Junction, Opeilu Road, Agbado
+              <i class="fas fa-map-marker-alt mr-3"></i> Orudu Junction, Opeilu Road, Agbado
           </li>
           <li>
-              <i class="fas fa-mail mr-3"></i> P. O. Box 173, Ifo, Ogun State, Nigeria
+              <i class="fas fa-envelop mr-3"></i> P. O. Box 173, Ifo, Ogun State, Nigeria
           </li>
           <li>
-              <i class="fas fa-envelope mr-3"></i> stjuliusagbado@gmail.com
+              <i class="fas fa-at mr-3"></i> stjuliusagbado@gmail.com
           </li>
           <li>
               <i class="fas fa-phone mr-3"></i> + 234 706 155 7070
@@ -119,14 +119,14 @@
   </div>
 </Footer>
 
-
 <!-- Copyright -->
 <div class="footer-copyright white-text text-center py-2">All rights reserved © 2020 Copyright:
   <a href="#"> St. Julius Catholic Church Agbado.</a>
 </div>
 <!-- Copyright -->
-
 <!-- Footers-->
+
+
 
 <!-- JQuery -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -135,13 +135,13 @@
 <!-- Bootstrap core JavaScript -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
 <!-- MDB core JavaScript -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.14.1/js/mdb.min.js"></script>
+<script  type="text/javascript"  src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.0.0/mdb.min.js"></script>
 <script type="text/javascript" src="../js/script.js"></script>
 
 <script>
   $(document).ready(function() {
     $(".nav-link").css({
-            color: '#fff'
+       color: '#fff'
           });
     var scroll_start = 0;
     var startchange = $('#startchange');

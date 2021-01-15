@@ -1,6 +1,6 @@
 <?php include("./includes/header.php"); ?>
  
- <div class="myMMask2 myHero" id="mast">
+ <div class="myHero" id="mast">
    <div class="row " style="padding-top: 35px !important;">
       <div class="col-md-7">
        <div class="big-text" id="startchange">
@@ -12,7 +12,7 @@
       </div>
    </div> 
  </div>
- <div class="mask-up"></div>
+ <div class="mask-up"></div> 
    
  
    <div class="content">
@@ -23,7 +23,7 @@
         <!-- Welocome address -->
            <div class="col-md-7">
            <!-- <img src="https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?cs=srgb&dl=face-facial-hair-fine-looking-guy-614810.jpg&fm=jpg" height="150px">  -->
-           <h2 class="pt-5 mr-3 f_regular"> From the Parish Priest</h2>
+           <h2 class="pt-5 mr-3"> From the Parish Priest</h2>
              <div class="welcomeBody">
                <p class="body" style="font-size: 1.5rem">
                    Thank you for your interest in our parish. Whether you’re just visiting us for a brief time, 
@@ -96,8 +96,8 @@
  
          <div class="row p-5 shadow-lg myMask" style="border-radius: 100px;">
            <div class="col-md-4 mx-auto quotes">
-             <h2 class=" f_regular">Quote of the day</h2>
-              <p class="body p3 "> "... Give and it shall be given unto you (... NRSV) ..."</p>
+             <h1 class=" f_regular">Quote of the day</h1>
+              <p class="body p3 1em"> "... Give and it shall be given unto you (... NRSV) ..."</p>
            </div>
          </div>
        </div>
@@ -224,16 +224,19 @@
                     <img class="w-100" src="../../assets/parish_priests.jpg"
                       alt="Fourth slide">
                   </div>
-                </div>
 
-                <a class="carousel-control-prev" href="#carouselAbout" role="button" data-bs-slide="prev">
+                  <!-- <a class="carousel-control-prev" href="#carouselAbout" role="button" data-bs-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Previous</span>
                 </a>
                 <a class="carousel-control-next" href="#carouselAbout" role="button" data-bs-slide="next">
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Next</span>
-                </a>
+                </a> -->
+
+                </div>
+
+                
               </div>
 
              <div class="container p-5">                  

@@ -7,18 +7,23 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>St Julius </title>
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"  rel="stylesheet"/>
     <!-- Google Fonts -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <link  href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"  rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css2?family=Arimo&family=Galada&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap" rel="stylesheet">
 
     <!-- Bootstrap core CSS -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <!-- Material Design Bootstrap -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.14.1/css/mdb.min.css" rel="stylesheet">
+    <link  href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.0.0/mdb.min.css"  rel="stylesheet"/>
     <!-- Your custom styles (optional) -->
     <link rel="stylesheet" href="../css/style.css">
     <!-- Script for Universalis api-->
+
+
+
     <script>
       function receivedUniversalisItem(thing){
         var where=document.getElementById("Universalis_" + thing);
@@ -79,18 +84,20 @@
  </head>
   <body>
    <!--Navbar-->
-      <nav class="navbar navbar-expand-lg transparent navbar-light fixed-top scrolling-navbar white-text no-box-shadow" id="thirdLayer">
+      <nav class="navbar navbar-expand-lg transparent navbar-light fixed-top white-text" id="thirdLayer">
 
+        <div class="container-fluid">
+
+      
         <!-- Navbar brand -->
-        
-        <a class="navbar-brand" style="font-style: bold" href="#">
-        <div style="max-width: 100px; ">
-           <div class="mr-3" style="float: left;">
-             <img src="../../assets/Pope_Julius_II.jpg" width="55" height="55" alt="">
-          </div>
-           <div class="ml-3"><h6> Catholic Diocese of Abeokuta</h6> </div >
-           <div class="mx-auto"><h4> Saint Julius Catholic Church</h4> </div >
-         </div>
+        <a class="navbar-brand " style="font-style: bold" href="#">
+         <div style="max-width: 100px; ">
+            <div class="" style="float: left;">
+              <img src="../../assets/Pope_Julius_II.jpg" width="55" height="55" alt="">
+            </div>
+            <div class="f_pirata "><h6> Catholic Diocese of Abeokuta</h6> </div >
+            <div class="f_pirata "><h4> Saint Julius Catholic Church</h4> </div >
+        </div>
         
       </a>
 
@@ -101,10 +108,10 @@
         </button>
 
         <!-- Collapsible content -->
-        <div class="collapse navbar-collapse f_regular" id="basicExampleNav">
+        <div class="collapse navbar-collapse" id="basicExampleNav">
 
           <!-- NavLinks -->
-          <ul class="navbar-nav ml-auto pr-5">
+          <ul class="navbar-nav ms-auto">
             <li class="nav-item">
               <a class="nav-link" href="./index.php">Home
                 <span class="sr-only">(current)</span>
@@ -169,7 +176,7 @@
           <li class="nav-item">
             <a class="nav-link" href="./projects.php">Projects</a>
           </li> -->
-             <li class="nav-item dropdown">
+             <!-- <li class="nav-item dropdown">
               <a class="nav-link" id="navbarDropdownMenuLink" data-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="true"><span> Ministries</span></a>
               <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
@@ -186,7 +193,7 @@
                     <li><a href="/RCIA">RCIA</a></li>
                 </ul>
               </div>
-            </li>
+            </li> -->
 
           <!-- <li class="nav-item">
             <a class="nav-link " href="./Reg_form.php">Membership</a>
@@ -205,7 +212,7 @@
               </div>
             </li>
 
-            <li class="nav-item dropdown">
+            <!-- <li class="nav-item dropdown">
               <a class="nav-link" id="navbarDropdownMenuLink" data-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="true"><span> Pastoral Services</span></a>
               <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
@@ -222,7 +229,7 @@
                     <li><a href="/RCIA">RCIA</a></li>
                 </ul>
               </div>
-            </li>
+            </li> -->
 
             <li class="nav-item">
               <a class="nav-link" href="./contact.php">Contact</a>
@@ -243,6 +250,8 @@
            <!-- NavLinks -->
 
         <!-- Collapsible content -->
+
+        </div>
       </nav>
    <!--/.Navbar-->
 

@@ -7,7 +7,6 @@
    background-attachment: fixed;   
  }
  .content{
-   /* opacity: 0.8; */
    background-position: center;
    background-size: cover;
    background-attachment: fixed;
@@ -16,15 +15,20 @@
 
  h1, h2, h3, h4, h5, h6 {
     color: #e4932a;
-    font-weight: bolder;
+    font-weight: bold;
+    
  }
 
  .f_regular {
     font-family: 'Galada', cursive;
  }
+ .f_pirata {
+    font-family: 'Pirata One', cursive;
+    text-shadow: 1px 1px 1px rgb(131, 79, 11);
+ }
 
  nav{
-     font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Pirata One', cursive;
      transition: opacity .25s ease-in-out;
     -moz-transition: opacity .25s ease-in-out;
     -webkit-transition: opacity .25s ease-in-out;
@@ -35,7 +39,7 @@
  }
 
  .nav-item:hover{
-     border-bottom: 1px solid#e4932a;
+     border-bottom: 3px solid#e4932a;
      padding: 0;
      margin: 0;
  }
@@ -66,17 +70,12 @@
 }
 
 .bs{
-    box-shadow: none;
+    /* box-shadow: none; */
 }
 
 .myMask{
     background-color: #f8975755;
     height: inherit;
-}
-
-.myMask2 {
-    background-color: #000000;
-    height: 100vh;
 }
 
 .mask-up{
@@ -98,8 +97,9 @@
 
 .welcomeHead, .about_us_head, .project_head,
 .contact_head, .communities_head, .services_head {
-   font-size: 2em !important;
+   font-size: 4em !important;
    font-weight: 900;
+   font-family: "Noto serif", serif;
 }
 
 .body{
@@ -143,14 +143,14 @@
  }
 
  .nav-link {
-     color : #fff;
-     padding: 0px;
+     /* color : #fff; */
+     padding: 5px;
  }
 
- /* .navbar .dropdown-menu{
-    background: #e4932abc;
-    color : #ffffff !important;
- } */
+ .navbar .dropdown-menu{
+    /* background: #e4932abc; */
+    /* color : #ffffff !important; */
+ }
 
   .dropdown:hover .dropdown-menu {
     background: #e4932abc;
@@ -269,10 +269,9 @@
 
 .dropdown {
     list-style-type: none;
-    color: white;
-}
-
-.nav-item:hover.dropdown{
     display: block !important;
-    
+
 }
+.nav-item:hover.dropdown{
+    
+} 
