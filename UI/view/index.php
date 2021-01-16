@@ -265,24 +265,23 @@
                   </div>
                 </div>
 
-                <div class="row black">
-                  <div class="col-md-12 myMask">
+                <div class="row">
+                  <div class="col-md-10 myMask">
                     <div class="row">
-                      <div class="col-md-6">
-                      <!-- <img class="w-75" src="../../assets/baptism.jpeg" -->
-                      <img class="w-75" src="//nebula.wsimg.com/95077b3c30f31304d82a8a11602750b3?AccessKeyId=06D2F9FD645118A40673"
-                        alt="Fourth slide">
-                      </div>
+                      <div class="col-md-4">
+                        <img class="w-100" src="../../assets/baptism.jpeg">
+                       <!-- <img class="w-75" src="//nebula.wsimg.com/95077b3c30f31304d82a8a11602750b3?AccessKeyId=06D2F9FD645118A40673" alt=""> -->
+                     </div>
 
-                      <div class="col-md-6 p-5 mx-auto">
-                      <h2 class="f_regular"style= "font-size: 3em;">
-                        Baptism Of The Lord
+                      <div class="col-md-6 p-3 ">
+                      <h2 class="f_regular"style= "font-size: 2.5em;">
+                        Baptism
                       </h2>
-                      <h4 class="f_regular text-white">
+                      <h5 class="f_regular text-white">
                         “...and this water symbolizes baptism that now saves you also- not the removal of dirt from the body
                          but the pledge of a clear conscience toward God. It saves you by the resurrection of Jesus Christ.” 
                          1 Peter 3:21
-                      </h4>
+                      </h5>
                     </div>
 
 
