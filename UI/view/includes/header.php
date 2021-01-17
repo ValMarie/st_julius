@@ -86,26 +86,27 @@
    <!--Navbar-->
       <nav class="navbar navbar-expand-lg transparent navbar-light fixed-top white-text" id="">
 
-        <div class="container-fluid">
+        <div class="container-fluid d-flex">
 
       
         <!-- Navbar brand -->
         <a class="navbar-brand" style="font-style: bold" href="#">
          <div  class="" style="max-width: 100px; ">
             <div class="px-3" style="float: left;">
-              <img src="../../assets/Pope_Julius_II.jpg" width="55" height="55" alt="">
+              <img src="../../assets/Pope_Julius_II.jpg" width="55" height="55" alt=""  loading= "lazy">
             </div>
             <div class="f_pirata "><h6> Catholic Diocese of Abeokuta</h6> </div >
             <div class="f_pirata "><h4> Saint Julius Catholic Church</h4> </div >
         </div>
-        
       </a>
+      <!-- Navbar brand -->
 
         <!-- Collapse button -->
         <button class="navbar-toggler"type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <i class="fas fa-bars"></i>
+          <i class="fas fa-bars body"></i>
         </button>
+        <!-- Collapse button -->
 
         <!-- Collapsible content -->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -113,43 +114,44 @@
           <!-- NavLinks -->
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="./index.php">Home>
-                <span class="sr-only">(current)</span>
+            <a class="nav-link active" aria-current="true" href="./index.php">Home>
+                <!-- <span class="sr-only">(current)</span> -->
               </a>
             </li>
 
             <!-- Dropdown menu-->
             <li class="nav-item dropdown">
               <a class="nav-link" id="navbarDropdown" data-toggle="dropdown" role="button"
-                aria-haspopup="true" aria-expanded="true"><span> About Us</span></a>
-              <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdown">
-                <ul class="dropdown">
+                aria-haspopup="true" aria-expanded="false"><span> About Us</span></a>
+              <div class=" dropdown dropdown-primary" aria-labelledby="navbarDropdown">
+                <ul class="dropdown-menu">
                   <li class="menu-back" style="display: none"><a href="#">                        
-                    <li><a href="./about.php">Parish History</a></li>
-                    <li><a href="#">Becoming Catholic</a></li>
-                    <li><a href="#">Returning Catholics</a></li>
-                    <li><a href="#">Why Become a Catholic?</a></li>
-                    <li><a href="/#">RCIA</a></li>
-                    <li><a href="#">Learn More</a></li>
-                    
+                    <li><a class="dropdown-item" href="./about.php">Parish History</a></li>
+                    <li><a class="dropdown-item" href="#">Becoming Catholic</a></li>
+                    <li><a class="dropdown-item" href="#">Returning Catholics</a></li>
+                    <li><a class="dropdown-item" href="#">Why Become a Catholic?</a></li>
+                    <li><a class="dropdown-item" href="/#">RCIA</a></li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li><a class="dropdown-item" href="#">Learn More</a></li>
+                     
                 </ul>
               </div>
             </li>
 
             <li class="nav-item dropdown">
               <a class="nav-link" id="navbarDropdown" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="true"><span> Our Faith</span></a>
-              <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdown">
-                <ul class="dropdown">
+                aria-haspopup="true" aria-expanded="false"><span> Our Faith</span></a>
+              <div class="dropdown dropdown-primary" aria-labelledby="navbarDropdown">
+                <ul class="dropdown-menu">
                   <li class="menu-back" style="display: none"><a href="#">                        
-                    <li><a href="/#">What is the Catholic Church</a></li>
-                    <li><a href="#">The Catholic Beliefs and Traditions</a></li>
-                    <li><a href="#">Sacraments</a></li>
-                    <li><a href="#"> Daily Mass</a></li>
-                    <li><a href="#"> Marian Devotion</a></li>
-                    <li><a href="#"> Saints and Relics</a></li>
-                    <li><a href="#"> Being Catholic Today</a></li>
-                    <li><a href="/#">We are the Church</a></li>
+                    <li><a class="dropdown-item" href="/#">What is the Catholic Church</a></li>
+                    <li><a class="dropdown-item" href="#">The Catholic Beliefs and Traditions</a></li>
+                    <li><a class="dropdown-item" href="#">Sacraments</a></li>
+                    <li><a class="dropdown-item" href="#"> Daily Mass</a></li>
+                    <li><a class="dropdown-item" href="#"> Marian Devotion</a></li>
+                    <li><a class="dropdown-item" href="#"> Saints and Relics</a></li>
+                    <li><a class="dropdown-item" href="#"> Being Catholic Today</a></li>
+                    <li><a class="dropdown-item" href="/#">We are the Church</a></li>
                    
                 </ul>
               </div>
@@ -159,15 +161,15 @@
             </li> -->
             <li class="nav-item dropdown">
               <a class="nav-link" id="navbarDropdown" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="true"><span> Communities</span></a>
-              <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdown">
-                <ul class="dropdown">
+                aria-haspopup="true" aria-expanded="false"><span> Communities</span></a>
+              <div class="dropdown dropdown-primary" aria-labelledby="navbarDropdown">
+                <ul class="dropdown-menu">
                   <li class="menu-back" style="display: none"><a href="#">                        
-                    <li><a href="./comunities.php">Liturgical Group</a></li>
-                    <li><a href="#">Societies</a></li>
-                    <li><a href="#">Basic Christian Communities</a></li>
-                    <li><a href="#">Outstations</a></li>
-                    <li><a href="#">Parish Council</a></li>
+                    <li><a class="dropdown-item" href="./comunities.php">Liturgical Group</a></li>
+                    <li><a class="dropdown-item" href="#">Societies</a></li>
+                    <li><a class="dropdown-item" href="#">Basic Christian Communities</a></li>
+                    <li><a class="dropdown-item" href="#">Outstations</a></li>
+                    <li><a class="dropdown-item" href="#">Parish Council</a></li>
                  </ul>
               </div>
             </li>
@@ -178,7 +180,7 @@
           </li> -->
              <!-- <li class="nav-item dropdown">
               <a class="nav-link" id="navbarDropdown" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="true"><span> Ministries</span></a>
+                aria-haspopup="true" aria-expanded="false"><span> Ministries</span></a>
               <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdown">
                 <ul class="dropdown">
                   <li class="menu-back" style="display: none"><a href="#">                        
@@ -200,13 +202,13 @@
           </li> -->
             <li class="nav-item dropdown">
               <a class="nav-link" id="navbarDropdown" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="true"><span> Membership</span></a>
-              <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdown">
-                <ul class="dropdown">
+                aria-haspopup="true" aria-expanded="false"><span> Membership</span></a>
+              <div class="dropdown dropdown-primary" aria-labelledby="navbarDropdown">
+                <ul class="dropdown-menu">
                   <li class="menu-back" style="display: none"><a href="#">                        
-                    <li><a href="./Reg_form.php">Newcomer</a></li>
-                    <li><a href="#">Returning Catholic</a></li>
-                    <li><a href="#">Practising Catholics</a></li>
+                    <li><a class="dropdown-item" href="./Reg_form.php">Newcomer</a></li>
+                    <li><a class="dropdown-item" href="#">Returning Catholic</a></li>
+                    <li><a class="dropdown-item" href="#">Practising Catholics</a></li>
                     
                 </ul>
               </div>
@@ -214,7 +216,7 @@
 
             <!-- <li class="nav-item dropdown">
               <a class="nav-link" id="navbarDropdown" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="true"><span> Pastoral Services</span></a>
+                aria-haspopup="true" aria-expanded="false"><span> Pastoral Services</span></a>
               <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdown">
                 <ul class="dropdown">
                   <li class="menu-back" style="display: none"><a href="#">                        
@@ -236,7 +238,7 @@
             </li>
           </ul>
 
-         <!--END/ Dropmenu -->
+         <!--END/ Dropdown menu -->
          
           <!-- <form class="form-inline">
             <div class="md-form my-0">
@@ -247,13 +249,12 @@
 
            <!-- END/ NavLinks -->
         </div>
-           <!-- NavLinks -->
 
-        <!-- Collapsible content -->
+        <!--END/ Collapsible content -->
 
         </div>
       </nav>
-   <!--/.Navbar-->
+   <!--END /Navbar-->
 
 
 

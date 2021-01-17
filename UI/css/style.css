@@ -34,15 +34,25 @@
     -webkit-transition: opacity .25s ease-in-out;
  }
 
- nav.faded{
-    opacity:0;
- }
-
  .nav-item:hover{
-     border-bottom: 3px solid#e4932a;
+     border-bottom: 1px solid#e4932a;
      padding: 0;
      margin: 0;
  }
+
+ .dropdown:hover .dropdown-menu {
+   background: #e4932a8a;
+   display: block;
+} 
+
+.dropdown-item{
+    color: white;
+}
+
+.dropdown-item:hover{
+   color:  #e4932a;
+   background: white;
+}
 
  .big-text{
      font-size: 4em;
@@ -138,22 +148,7 @@
 
  }
 
- .nav-link {
-     /* color : #fff; */
-     padding: 5px;
- }
-
- .navbar .dropdown-menu{
-    /* background: #e4932abc; */
-    /* color : #ffffff !important; */
- }
-
-  .dropdown:hover .dropdown-menu {
-    background: #e4932abc;
-    color : #ffffff;
-    display: block;
- } 
-
+ 
 .about_us{
     background-image: url("../../assets/side_about.jpg");
     background-attachment: fixed;
@@ -259,15 +254,3 @@
     min-height: 200px;
 }
 
-.navbar .dropdown-menu a:not(.active) {
-    color: #ffffff;
-}
-
-.dropdown {
-    list-style-type: none;
-    display: block !important;
-
-}
-.nav-item:hover.dropdown{
-    
-} 
