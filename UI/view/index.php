@@ -23,7 +23,7 @@
         <!-- Welocome address -->
            <div class="col-md-7">
            <!-- <img src="https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?cs=srgb&dl=face-facial-hair-fine-looking-guy-614810.jpg&fm=jpg" height="150px">  -->
-           <h2 class="pt-5 mr-3"> From the Parish Priest</h2>
+           <h3 class="pt-5 mr-3"> From the Parish Priest</h3>
              <div class="welcomeBody">
                <p class="body" style="font-size: 1.5rem">
                    Thank you for your interest in our parish. Whether you’re just visiting us for a brief time, 
@@ -33,7 +33,7 @@
                    A parish is a community of believers and a spiritual family that is supportive and loving. 
                    It can be a place to grow spiritually, to put your faith in action, and to use our gifts of time 
                    and talent as disciples of Christ. We look forward to answering any questions you may have. 
-                   In the meantime, please look through the resources we’ve made available on these pages: <br><br>
+                   In the meantime, please look through the resources we’ve made available on these pages: <br>
               
                    <u >
                      <div> <a href="#">  I want to register as a new parishioner.</a></div>
@@ -49,11 +49,11 @@
  
          <!-- News Feeds links -->
          <div class="col-md-5 p-4 mx-auto my-2"> 
-           <div class='shadow-lg newsFeed p-4 mx-3'>
+           <div class='shadow-lg p-4 mx-3 '>
                  <h2 class="lead f_regular">
                    News Feeds
                  </h2>
-                 <ul id="newsFeeds" style="font-size: 0.8em;"></ul>
+                 <ul id="newsFeeds m-2" style="font-size: 0.8em;"></ul>
            </div>
          </div>
         <!-- News Feeds links -->
@@ -61,7 +61,7 @@
       </div>
      </div>
  
-       <div class="container pb-5">
+       <div class="container p-5">
          <!--Card  -->
            <!--Liturgical calendar Card-->            
            <!-- <div class="row mr-5 ml-5 myCards"> -->
@@ -89,21 +89,24 @@
      </div>
    </div> -->
  <!-- </div> -->
+ </div>
                  <!-- Liturgical calendar for Tomorrow-->
  
            <!--Liturgical calendar Card-->        
          <!-- Card -->
  
-         <div class="row p-5 shadow-lg myMask" style="border-radius: 100px;">
+        <div class="container pb-5">
+        <div class="row p-5 shadow-lg myMask" style="border-radius: 100px;">
            <div class="col-md-4 mx-auto quotes">
              <h1 class=" f_regular">Quote of the day</h1>
-              <p class="body p3 1em"> "... Give and it shall be given unto you (... NRSV) ..."</p>
+              <p class="body 1em"> "... Give and it shall be given unto you (... NRSV) ..."</p>
            </div>
          </div>
-       </div>
+        </div>
+       
  
-       <div class="container pt-5 pb-5 ">
-
+       <div class="container py-5 ">
+       <hr class="clearfix my-5">     
        <!-- Card 1-->
          <div class="row">
 
@@ -198,15 +201,26 @@
               </div>
             </div>
           </div> 
+          <hr class="clearfix my-5">     
         </div>
+
  
             <div class="row p-3">
               <div class="col-md-12">
-                <h2 class="f_regular text-center"> EVENTS IN PICTURES </h2>
+                <h3 class="f_regular text-center"> EVENTS IN PICTURES </h3>
               </div>
             </div>
             
-               <div class="carousel slide carousel-slide pb-2 pt-5" id="carouselAbout" data-bs-ride="carousel">
+               <div class="carousel slide carousel-slide pb-2 pt-5" id="carouselAbout" data-ride="carousel">
+               <ol class="carousel-indicators">
+                  <li
+                    data-target="#carouselAbout"
+                    data-slide-to="0"
+                    class="active"
+                  ></li>
+                  <li data-target="#carouselAbout" data-slide-to="1"></li>
+                  <li data-target="#carouselAbout" data-slide-to="2"></li>
+                </ol>
                 <div class="carousel-inner" id="carouselSlide" style="height: 100vh;" >
                   <div class="carousel-item active">
                     <img class="w-100" src=" ../../assets/ckc_celebration.jpg"
@@ -225,84 +239,87 @@
                       alt="Fourth slide">
                   </div>
 
-                  <!-- <a class="carousel-control-prev" href="#carouselAbout" role="button" data-bs-slide="prev">
+                  <!-- <a class="carousel-control-prev" href="#carouselAbout" role="button" data-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Previous</span>
                 </a>
-                <a class="carousel-control-next" href="#carouselAbout" role="button" data-bs-slide="next">
+                <a class="carousel-control-next" href="#carouselAbout" role="button" data-slide="next">
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Next</span>
                 </a> -->
 
                 </div>
 
-                
               </div>
 
-             <div class="container p-5">                  
+              
+
+              <!-- Parish Schedule -->
+             <div class="container p-4">
+             <hr class="clearfix my-5">     
               <div class="row">
+
                 <div class="row">
                   <div class="col-md-12">
-                    <h2 class="f_regular"> MASS SCHEDULES </h2>
+                    <h3 class="f_regular"> PQRISH ACTIVITIES </h3>
                   </div>
                 </div>
 
                 <div class="row">
-                  <div class="col-md-4 p-5">
+                  <div class="col-md-4 px-3">
+                    <h4 class=""> Mass Schedules</h4>
                     <p class="body text-center">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quos cumque dolorem voluptatem distinctio doloribus, possimus nam dolor fugit et minus vitae consectetur sunt nostrum quia consequatur porro necessitatibus itaque!
+                     <strong>Sundays</strong> -6:30am, 8:00am and 9:30am; Benediction - 5:30pm
+                     <strong>Weekdays</strong> Monday - Fridays - 6:30am; Saturdays 7:00am
+                     <strong>Adoration</strong> -Every Saturday 6:30am (before the Mass)
+                     <strong>Hour of Mercy</strong> - Every 2nd Friday of the month
                     </p>
                   </div>
-                  <div class="col-md-4 p-5">
+
+                  <div class="col-md-4 px-5">
+                  <h4 class="">Catechism Classes</h4>
                     <p class="body text-center">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis labore suscipit debitis quas dolore, impedit voluptatum rerum necessitatibus optio excepturi hic accusamus inventore saepe harum. Deserunt aperiam placeat distinctio perferendis?
+                    <strong>Saturdays and Sundays</strong> 3:00pm – 5:00pm. 
+                    <strong>Thursdays</strong> 8:00am (for adults). 
+                    Click on the links to learn more on <a href="#">registration</a> and <a href="#">Sacraments</a>.
                     </p>
                   </div>
-                  <div class="col-md-4 p-5">
+
+                  <div class="col-md-4 px-5">
+                  <h4 class=""> Sacraments</h4>
                     <p class="body text-center">
-                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio voluptatibus eos repudiandae modi, quo nam possimus sint illum, id necessitatibus eligendi ea sed. Voluptatem voluptate mollitia, aut dicta nesciunt officiis.
+                     <strong>Baptism</strong>- Every last Saturday of the month
+                     <strong>Marriage</strong>- Every 1st and 3rd Saturday of the month. Marriage classes - Sundays 4:00pm
+                     <strong>Confession</strong>- Every Saturday  5:30pm
                     </p>
                   </div>
                 </div>
 
-                <div class="row">
-                  <div class="col-md-10 myMask">
-                    <div class="row">
-                      <div class="col-md-4">
-                        <img class="w-100" src="../../assets/baptism.jpeg">
-                       <!-- <img class="w-75" src="//nebula.wsimg.com/95077b3c30f31304d82a8a11602750b3?AccessKeyId=06D2F9FD645118A40673" alt=""> -->
-                     </div>
-
-                      <div class="col-md-6 p-3 ">
-                      <h2 class="f_regular"style= "font-size: 2.5em;">
-                        Baptism
-                      </h2>
-                      <h5 class="f_regular text-white">
-                        “...and this water symbolizes baptism that now saves you also- not the removal of dirt from the body
-                         but the pledge of a clear conscience toward God. It saves you by the resurrection of Jesus Christ.” 
-                         1 Peter 3:21
-                      </h5>
-                    </div>
-
-
-                  </div>
-                </div>
-
-
-              </div>
-
+              <hr class="clearfix my-5">     
              </div>
+           </div>
+              <!-- Parish Schedule -->
+
+
+            <div class="container p-5">
+              <div class="row myMask">
+                <div class="col-md-4 ">
+                  <img class="w-100" src="//nebula.wsimg.com/95077b3c30f31304d82a8a11602750b3?AccessKeyId=06D2F9FD645118A40673" alt="">
+                </div>
+
+                <div class="col-md-4 ">
+                  <h2 class="f_pirata "style= "font-size: 2.5em;">
+                    Baptism
+                  </h2>
+                  <h5 class="f_regular text-white">
+                    “...and this water symbolizes baptism that now saves you also- not the removal of dirt from the body
+                    but the pledge of a clear conscience toward God. It saves you by the resurrection of Jesus Christ.” 
+                    1 Peter 3:21
+                  </h5>
+              </div>
+            </div>
+          </div>
             
-            
-
-
-
-
-
-
-
-   </div>
-   
    
  <?php include("./includes/footer.php"); ?>
    

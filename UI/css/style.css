@@ -41,7 +41,7 @@
  }
 
  .dropdown:hover .dropdown-menu {
-   background: #e4932a8a;
+   background: #e4932ab0;
    display: block;
 } 
 
@@ -49,7 +49,7 @@
     color: white;
 }
 
-.dropdown-item:hover{
+.dropdown-item:hover, .btn-rounded{
    color:  #e4932a;
    background: white;
 }
@@ -103,7 +103,7 @@
 
 .welcomeHead, .about_us_head, .project_head,
 .contact_head, .communities_head, .services_head {
-   font-size: 4em !important;
+   font-size: 3.5em !important;
    font-weight: 900;
    font-family: "Noto serif", serif;
 }
@@ -152,16 +152,16 @@
 .about_us{
     background-image: url("../../assets/side_about.jpg");
     background-attachment: fixed;
-    background-position: left;
+    background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
 
  }
 
- /* .d-block{
+ .d-block{
      opacity: 0.8;
      max-height: 250px;
- } */
+ }
 
 .p_priest{
     background-image: url("../../assets/Fr_gilbert.jpg");
