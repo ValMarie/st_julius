@@ -6,17 +6,16 @@
  body {
    background-attachment: fixed;   
  }
- .content{
+ /* .content{
    background-position: center;
    background-size: cover;
    background-attachment: fixed;
    background-repeat: none;
- }
+ } */
 
  h1, h2, h3, h4, h5, h6 {
     color: #e4932a;
     font-weight: bold;
-    
  }
 
  .f_regular {
@@ -32,6 +31,10 @@
      transition: opacity .25s ease-in-out;
     -moz-transition: opacity .25s ease-in-out;
     -webkit-transition: opacity .25s ease-in-out;
+ }
+
+ .nav-item{
+    padding-right: 20px ;
  }
 
  .nav-item:hover{
@@ -55,10 +58,10 @@
 }
 
  .big-text{
-     font-size: 4em;
+     font-size: 3.5em;
      color: white;
-     margin-top: 100px;
-     padding: 100px 100px 20px 100px;
+     margin-top: 80px;
+     padding: 100px 100px 10px 110px; 
      font-weight: 100;
  }
 
@@ -67,6 +70,7 @@
      font-style: italic;
      font-size: 1.5em;
      padding-left: 100px;
+     padding-bottom: 80px;
  }
  
  .myHero{
@@ -76,29 +80,12 @@
     background-position: center;
     background-attachment: fixed;  
     background-repeat: no-repeat;
-    margin: 0;
+    margin-top: -2vh;
 }
 
 .myMask{
     background-color: #f8975755;
     height: inherit;
-}
-
-.mask-up{
-    background-color: #000000cc;
-    height: 100vh;
-    margin-top: -100vh;
-}
-
-.heroContent{
-    height: 400px;
-    /* opacity: 0.8;   */
- }
-
-.textInHero{
-    color: white;
-    align-items: center;
-    justify-content: center;
 }
 
 .welcomeHead, .about_us_head, .project_head,
@@ -113,11 +100,6 @@
     color: rgb(173, 106, 18);
     word-spacing: 9px;
 }
-/* li a {
-    line-height: 30px;
-    color: white !important;
-    list-style-type: none;
-} */
 
 .quotes{
     font-style: italic;
@@ -125,11 +107,12 @@
 }
 
 .testimony{
-    /* background-image: url('../../assets/interior.jpg'); */
+    background-image: url('../../assets/constrution.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     background-position: center;
-    min-height: 700;
+    min-height: 50vh;
 }
 
  button { 
@@ -220,10 +203,10 @@
     color: white;
 }
 .page-footer{
-   background-color: #e5b494 !important;
+   background-color: #583c27 !important;
 }
 .footer-copyright{
-   background: #f48236d1;
+   background: #bb662ed1;
    }
 
 .communities_body{
@@ -253,4 +236,4 @@
     color: white;
     min-height: 200px;
 }
-
+ 

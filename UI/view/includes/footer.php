@@ -1,5 +1,17 @@
 <!-- Footers -->
 <!-- footer signup -->
+
+    <!-- <a href="#!"> -->
+    <!-- <div class="mask" style="background-color: rgba(0, 0, 0, 0.4)"> -->
+      <!-- <div class="d-flex justify-content-center align-items-center h-100">
+        <p class="text-white mb-0">Can you see me?</p>
+      </div> -->
+    <!-- </div> -->
+    <!-- </a> -->
+
+
+
+<hr class="clearfix my-5 w-100"> 
 <footer class="page-footer font-small pt-4">
   <h5 class=' flex-center mb-3'>Sign up for our newsletter </h5>
   <!-- Footer Search -->
@@ -120,7 +132,7 @@
 </Footer>
 
 <!-- Copyright -->
-<div class="footer-copyright white-text text-center py-2">All rights reserved © 2020 Copyright:
+<div class="footer-copyright white text-center py-2">All rights reserved © 2020 Copyright:
   <a href="#"> St. Julius Catholic Church Agbado.</a>
 </div>
 <!-- Copyright -->
@@ -142,7 +154,12 @@
   $(document).ready(function() {
     $(".nav-link").css({
        color: '#fff'
+     });
+     $(".brand-name").css("slow") ({
+            float: "none"
           });
+    
+
     var scroll_start = 0;
     var startchange = $('#startchange');
     var offset = startchange.offset();
@@ -158,6 +175,9 @@
           $(".nav-link").css({
             color: '#dd9d48'
           });
+          $(".brand-name").css ({
+            float: "left"
+          });
         } else {
           $('nav').css({
             backgroundColor: 'transparent',
@@ -166,6 +186,10 @@
           $(".nav-link").css({
             color: '#fff'
           });
+          $(".brand-name").css ({
+            float: "none"
+          });
+
           if (document.URL.endsWith("index.php")) {
             $(".nav-link").css({
               color: '#fff'

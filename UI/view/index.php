@@ -1,39 +1,67 @@
 <?php include("./includes/header.php"); ?>
  
- <div class="myHero" id="mast">
-   <div class="row " style="padding-top: 35px !important;">
-      <div class="col-md-7">
-       <div class="big-text" id="startchange">
-         Be still and know that I am God.
-       </div>
-       <div class="small-text">
-         "... the Lord of host has come..."
-       </div>
-      </div>
-   </div> 
- </div>
- <div class="mask-up"></div> 
+
+
+  
+    <div class="row  mb-5 " style="background-color: rgba(0, 0, 0, 0.8)">
+      <div class="myHero">
+      <div class="mask" style="background-color: rgba(0, 0, 0, 0.7)">
+     
+   
+
+        <div class="col-md-7 ms-auto" >
+          
+        <div class=" mx-5 pb--5" style="background-color: rgba(0, 0, 0, 0.8)">
+        <div class="big-text " id="startchange">
+            Be still and know that I am God.
+          </div>
+          <div class="small-text ">
+            "... the Lord of host has come..."
+          </div>
+
+        </div>
+
+         </div>
+
+        <!-- News Feeds links -->
+         <div class="col-md-5 shadow-lg   mx-5 ">
+            <div class=' p-4 mx-3 my-0 bg-white'>
+                 <h2 class="lead f_regular">
+                   News Feeds
+                 </h2>
+                 <ul id="newsFeeds m-2" style="font-size: 0.8em;"></ul>
+           </div>
+        </div>
+        <!-- News Feeds links -->
+        </div>
+       
+       
+        
+        </div>
+        </div>
+     
+   
+
+ <!-- <div class="mask-up"></div>  -->
    
  
    <div class="content">
      <div class="container">
-     
+    
        <div class='row p-3 '>
          
         <!-- Welocome address -->
-           <div class="col-md-7">
-           <!-- <img src="https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?cs=srgb&dl=face-facial-hair-fine-looking-guy-614810.jpg&fm=jpg" height="150px">  -->
+           <div class="col-md-*">
            <h3 class="pt-5 mr-3"> From the Parish Priest</h3>
              <div class="welcomeBody">
-               <p class="body" style="font-size: 1.5rem">
+               <p class="body" style="font-size: 1.2rem ">
                    Thank you for your interest in our parish. Whether you’re just visiting us for a brief time, 
                    looking for a new parish home, are returning to the practice of your Catholic faith or are interested 
-                   in finding out more about the Catholic Church, we’re happy to have you here. <br>
-                   
-                   A parish is a community of believers and a spiritual family that is supportive and loving. 
-                   It can be a place to grow spiritually, to put your faith in action, and to use our gifts of time 
-                   and talent as disciples of Christ. We look forward to answering any questions you may have. 
-                   In the meantime, please look through the resources we’ve made available on these pages: <br>
+                   in finding out more about the Catholic Church, we’re happy to have you here.  A parish is a community 
+                   of believers and a spiritual family that is supportive and loving. It can be a place to grow spiritually,
+                    to put your faith in action, and to use our gifts of time and talent as disciples of Christ. We look
+                     forward to answering any questions you may have. In the meantime, please look through the resources 
+                     we’ve made available on these pages: <br>
               
                    <u >
                      <div> <a href="#">  I want to register as a new parishioner.</a></div>
@@ -47,16 +75,9 @@
            </div>
          <!-- Welcome address -->
  
-         <!-- News Feeds links -->
-         <div class="col-md-5 p-4 mx-auto my-2"> 
-           <div class='shadow-lg p-4 mx-3 '>
-                 <h2 class="lead f_regular">
-                   News Feeds
-                 </h2>
-                 <ul id="newsFeeds m-2" style="font-size: 0.8em;"></ul>
-           </div>
-         </div>
-        <!-- News Feeds links -->
+         
+         
+        
  
       </div>
      </div>
@@ -239,14 +260,14 @@
                       alt="Fourth slide">
                   </div>
 
-                  <!-- <a class="carousel-control-prev" href="#carouselAbout" role="button" data-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselAbout" role="button" data-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </a> -->
+                  <a class="carousel-control-prev" href="#carouselAbout" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                 </a>
+                  <a class="carousel-control-next" href="#carouselAbout" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </a>
 
                 </div>
 
@@ -261,7 +282,7 @@
 
                 <div class="row">
                   <div class="col-md-12">
-                    <h3 class="f_regular"> PQRISH ACTIVITIES </h3>
+                    <h3 class="f_regular"> PARISH ACTIVITIES </h3>
                   </div>
                 </div>
 
@@ -320,6 +341,6 @@
             </div>
           </div>
             
-   
+             
  <?php include("./includes/footer.php"); ?>
    
