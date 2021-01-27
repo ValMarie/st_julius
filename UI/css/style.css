@@ -4,14 +4,15 @@
  }
  
  body {
-   background-attachment: fixed;   
+   background: rgba(128, 128, 128, 0.205);
  }
- /* .content{
+ .content{
+    background-image: url('../../assets/eucharist_2.jpg');
    background-position: center;
    background-size: cover;
    background-attachment: fixed;
    background-repeat: none;
- } */
+ }
 
  h1, h2, h3, h4, h5, h6 {
     color: #e4932a;
@@ -84,7 +85,7 @@
 }
 
 .myMask{
-    background-color: #f8975755;
+    background-color: #583c27d0;
     height: inherit;
 }
 
@@ -95,6 +96,12 @@
    font-family: "Noto serif", serif;
 }
 
+.welcomeBody{
+    color: white !important;
+    background: wheat;
+    position: relative;
+    /* z-index: -2; */
+}
 .body{
     font-size: 1em;
     color: rgb(173, 106, 18);
@@ -237,3 +244,22 @@
     min-height: 200px;
 }
  
+.link{
+    color: white;
+}
+.link:hover, .link:active{
+    color: #e4932a;
+    border-bottom: 1px solid #e4932a;   
+}
+
+.image_size_1 {
+    background-image: url("../../assets/Pope_Julius_II.jpg");
+    width: 15em;
+    height: 15em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -12em;
+    z-index: 3;
+    position: relative;
+    margin-right: 150px;
+}

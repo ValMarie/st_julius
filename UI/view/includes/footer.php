@@ -45,7 +45,7 @@
 <!-- Footer Links -->
 
 <footer class="page-footer font-small pt-4">
-  <div class="container text-center text-md-left">
+  <div class="container text-md-left">
 
     <!-- Grid row -->
     <div class="row">
@@ -56,10 +56,7 @@
         <!-- Content -->
         <h5 class="font-weight-bold text-uppercase mb-2">Footer</h5>
         <p>Here you can use rows and columns to organize your footer content.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit amet numquam iure provident voluptate
-          esse
-          quasi, veritatis totam voluptas nostrum.</p>
-
+        
       </div>
       <!-- Grid column -->
 
@@ -73,22 +70,22 @@
 
         <ul class="list-unstyled">
           <li>
-              <a href="./index.php!">Home</a>
+              <a class="link" href="./index.php!">Home</a>
           </li>
           <li>
-              <a href="./about.php!">About Us</a>
+              <a class="link" href="./about.php!">About Us</a>
           </li>
           <li>
-              <a href="#!">Community</a>
+              <a class="link" href="#!">Community</a>
           </li>
           <li>
-              <a href="./projects.php!">Projects</a>
+              <a class="link" href="./projects.php!">Projects</a>
           </li>
           <li>
-              <a href="./Reg_form.php!">Membership</a>
+              <a class="link" href="./Reg_form.php!">Membership</a>
           </li>
           <li>
-              <a href="#!"> Services</a>
+              <a class="link" href="#!"> Services</a>
           </li>
         </ul>
 
@@ -133,7 +130,7 @@
 
 <!-- Copyright -->
 <div class="footer-copyright white text-center py-2">All rights reserved © 2020 Copyright:
-  <a href="#"> St. Julius Catholic Church Agbado.</a>
+  <a class="link" href="#"> St. Julius Catholic Church Agbado.</a>
 </div>
 <!-- Copyright -->
 <!-- Footers-->
@@ -155,10 +152,7 @@
     $(".nav-link").css({
        color: '#fff'
      });
-     $(".brand-name").css("slow") ({
-            float: "none"
-          });
-    
+   
 
     var scroll_start = 0;
     var startchange = $('#startchange');

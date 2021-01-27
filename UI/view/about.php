@@ -8,7 +8,7 @@
         <h1 class="about_us_head pl-4" >About us</h1>
         <div class="about_us_body p-4">          
             <p class="body" style= "font-size: 1.5em;">
-                <strong>Welcome to Saint Julius Catholic Church, Agbado</strong><br>
+               
                 Our Parish Mission Statement is to build a Christian family of faith, 
                 hope and love; and to become a light of the world and salt of the earth 
                 through imitation of Christ, becoming instrument of peace and imitating 

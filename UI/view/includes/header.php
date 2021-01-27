@@ -92,15 +92,13 @@
         <!-- Navbar brand -->
         <a class="navbar-brand" style="font-style: bold" href="#">
          <div  style="max-width: 100px; ">
-            <div class="px-3 brand-img " >
+            <div class="px-3 brand-name " >
               <img src="../../assets/Pope_Julius_II.jpg" width="55" height="55" alt=""  loading= "lazy">
             </div>
 
             
-           <div class="brand-name">
            <div class="f_pirata "><h6> Catholic Diocese of Abeokuta</h6> </div >
               <div class="f_pirata "><h4> Saint Julius Catholic Church</h4> </div >
-           </div>
             
           
         </div>
@@ -125,24 +123,35 @@
               </a>
             </li>
 
+            <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+            <a class="nav-link " aria-current="true" href="./about.php">About
+                <!-- <span class="sr-only">(current)</span> -->
+              </a>
+            </li>
+
+
+
+
+
             <!-- Dropdown menu-->
-            <li class="nav-item dropdown">
+            <!-- <li class="nav-item dropdown">
               <a class="nav-link" id="navbarDropdown" data-toggle="dropdown" role="button" href="./about.php"
                 aria-haspopup="true" aria-expanded="false"><span> About Us</span></a>
               <div class=" dropdown dropdown-primary" aria-labelledby="navbarDropdown">
                 <ul class="dropdown-menu">
                   <li class="menu-back" style="display: none"><a href=#">                        
-                    <!-- <li><a class="dropdown-item" href="#">Parish History</a></li>
+                    <li><a class="dropdown-item" href="#">Parish History</a></li>
                     <li><a class="dropdown-item" href="#">Becoming Catholic</a></li>
                     <li><a class="dropdown-item" href="#">Returning Catholics</a></li>
                     <li><a class="dropdown-item" href="#">Why Become a Catholic?</a></li>
                     <li><a class="dropdown-item" href="/#">RCIA</a></li>
                     <li><hr class="dropdown-divider" /></li>
-                    <li><a class="dropdown-item" href="#">Learn More</a></li> -->
+                    <li><a class="dropdown-item" href="#">Learn More</a></li>
                      
                 </ul>
               </div>
-            </li>
+            </li> -->
 
             <!-- <li class="nav-item dropdown">
               <a class="nav-link" id="navbarDropdown" data-toggle="dropdown"

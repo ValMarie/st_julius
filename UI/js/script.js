@@ -84,14 +84,14 @@
         nl.innerHTML = news.title;
       })   
 
-       let moreNews = document.createElement("a");
-      moreNews.setAttribute("href", news.url);
-      moreNews.setAttribute("target", "_blank");
-      nf.appendChild(moreNews);
+    //    let moreNews = document.createElement("a");
+    //   moreNews.setAttribute("href", news.url);
+    //   moreNews.setAttribute("target", "_blank");
+    //   nf.appendChild(moreNews);
 
-      moreNews.innerHTML = "See More >>";
+    //   moreNews.innerHTML = "See More >>";
       
-    })
+    // })
     .catch(function(error) {
       console.log(error);
     });   

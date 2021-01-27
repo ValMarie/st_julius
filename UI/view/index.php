@@ -1,74 +1,56 @@
 <?php include("./includes/header.php"); ?>
  
 
-
-  
-    <div class="row  mb-5 " style="background-color: rgba(0, 0, 0, 0.8)">
-      <div class="myHero">
-      <div class="mask" style="background-color: rgba(0, 0, 0, 0.7)">
-     
-   
-
-        <div class="col-md-7 ms-auto" >
-          
-        <div class=" mx-5 pb--5" style="background-color: rgba(0, 0, 0, 0.8)">
+<div class="row  mb-5 " style="background-color: rgba(0, 0, 0, 0.8)">
+  <div class="myHero">
+    <div class="mask" style="background-color: rgba(0, 0, 0, 0.7)">
+     <div class="col-md-7 ms-auto" >
+       <div class=" mx-5 pb--5" style="background-color: rgba(0, 0, 0, 0.8)">
         <div class="big-text " id="startchange">
             Be still and know that I am God.
-          </div>
-          <div class="small-text ">
-            "... the Lord of host has come..."
-          </div>
-
+        </div>
+        <div class="small-text ">
+          "... the Lord of host has come..."
         </div>
 
-         </div>
+       </div>
+      </div>
 
-        <!-- News Feeds links -->
-         <div class="col-md-5 shadow-lg   mx-5 ">
-            <div class=' p-4 mx-3 my-0 bg-white'>
-                 <h2 class="lead f_regular">
-                   News Feeds
-                 </h2>
-                 <ul id="newsFeeds m-2" style="font-size: 0.8em;"></ul>
-           </div>
+      
+
+         <!-- News Feeds links -->
+      <div class="col-md-5 shadow-lg mx-5 ">
+        <div class=' p-4 mx-3 my-0 bg-white'>
+          <h2 class="lead f_regular">
+            News Feeds
+          </h2>
+          <ul id="newsFeeds m-2" style="font-size: 0.8em;"></ul>
         </div>
-        <!-- News Feeds links -->
-        </div>
-       
-       
-        
-        </div>
-        </div>
+       </div>
+         <!-- News Feeds links -->
+    </div>
+   </div>
+  </div>
+
+  <div class="image_size_1 ms-auto" ></div>
      
-   
-
- <!-- <div class="mask-up"></div>  -->
-   
- 
-   <div class="content">
-     <div class="container">
-    
+  <div class="content">
+        <div class="" style="background-color: rgba(0, 0, 0, 0.7)">
+     <div class="container-fluid welcomeBody shadow-lg">
+       <div class="container p-2">
        <div class='row p-3 '>
          
         <!-- Welocome address -->
-           <div class="col-md-*">
-           <h3 class="pt-5 mr-3"> From the Parish Priest</h3>
-             <div class="welcomeBody">
+           <div class="col-md-* text-center">
+           <h3 class="pt-5 mr-3"> <strong>Welcome to Saint Julius Catholic Church, Agbado</strong><br></h3>
+             <div class="">
                <p class="body" style="font-size: 1.2rem ">
                    Thank you for your interest in our parish. Whether you’re just visiting us for a brief time, 
                    looking for a new parish home, are returning to the practice of your Catholic faith or are interested 
                    in finding out more about the Catholic Church, we’re happy to have you here.  A parish is a community 
                    of believers and a spiritual family that is supportive and loving. It can be a place to grow spiritually,
                     to put your faith in action, and to use our gifts of time and talent as disciples of Christ. We look
-                     forward to answering any questions you may have. In the meantime, please look through the resources 
-                     we’ve made available on these pages: <br>
-              
-                   <u >
-                     <div> <a href="#">  I want to register as a new parishioner.</a></div>
-                     <div> <a href="#">  I’m a returning Catholic.</a> </div>
-                     <div> <a href="#">  I’m interested in learning more about the Catholic Church.</a></div>
-                     <div> <a href="#">  I want to become Catholic.</a> </div>
-                   </u>
+                     forward to answering any questions you may have.  <br>
                </p>
              </div>
              
@@ -77,12 +59,13 @@
  
          
          
-        
+         </div>
  
       </div>
      </div>
- 
-       <div class="container p-5">
+
+     
+       <!-- <div class="container p-5"> -->
          <!--Card  -->
            <!--Liturgical calendar Card-->            
            <!-- <div class="row mr-5 ml-5 myCards"> -->
@@ -110,24 +93,19 @@
      </div>
    </div> -->
  <!-- </div> -->
- </div>
+ <!-- </div> -->
                  <!-- Liturgical calendar for Tomorrow-->
  
            <!--Liturgical calendar Card-->        
          <!-- Card -->
- 
-        <div class="container pb-5">
-        <div class="row p-5 shadow-lg myMask" style="border-radius: 100px;">
-           <div class="col-md-4 mx-auto quotes">
-             <h1 class=" f_regular">Quote of the day</h1>
-              <p class="body 1em"> "... Give and it shall be given unto you (... NRSV) ..."</p>
-           </div>
-         </div>
-        </div>
+         
+        
        
+        
+        <hr class="clearfix my-3">     
  
-       <div class="container py-5 ">
-       <hr class="clearfix my-5">     
+       <div class="container py-5 shadow-lg overlay bg-white">
+       
        <!-- Card 1-->
          <div class="row">
 
@@ -135,9 +113,7 @@
           <div class="col-md-4 mx-auto">
               <a href="#">
               <div class="shadow-lg card-image card-image-x">
-                <!-- <div class="text-white text-center  align-items-center py-5 px-5"> -->
                     <p>Our History</p>
-                <!-- </div> -->
               </div>
               </a>
           </div>
@@ -160,7 +136,7 @@
           </div> 
 
           <!-- Card 2 -->
-         <div class="row p-4">
+         <div class="row p-4 ">
           
           <!-- Content -->
           <div class="col-md-6 mx-auto">
@@ -222,9 +198,19 @@
               </div>
             </div>
           </div> 
-          <hr class="clearfix my-5">     
+        </div>
+        <hr class="clearfix my-5">   
+        </div> 
         </div>
 
+        <div class="container pb-5">
+        <div class="row p-5 shadow-lg myMask" style="border-radius: 100px;">
+           <div class="col-md-4 mx-auto quotes">
+             <h1 class=" f_regular">Quote of the day</h1>
+              <p class="body 1em"> "... Give and it shall be given unto you (... NRSV) ..."</p>
+           </div>
+         </div>
+        </div>
  
             <div class="row p-3">
               <div class="col-md-12">
@@ -244,7 +230,7 @@
                 </ol>
                 <div class="carousel-inner" id="carouselSlide" style="height: 100vh;" >
                   <div class="carousel-item active">
-                    <img class="w-100" src=" ../../assets/ckc_celebration.jpg"
+                    <img class="w-100" src=" ../../assets/parish_priests.jpg"
                       alt="First slide">
                   </div>
                   <div class="carousel-item">
@@ -252,11 +238,11 @@
                       alt="Second slide">
                   </div>
                   <div class="carousel-item">
-                    <img class="w-100" src="../../assets/clinching_the_cup.jpg"
+                    <img class="w-100" src="../../assets/.jpg"
                       alt="Third slide">
                   </div>
                   <div class="carousel-item">
-                    <img class="w-100" src="../../assets/parish_priests.jpg"
+                    <img class="w-100" src="../../assets/.jpg"
                       alt="Fourth slide">
                   </div>
 
