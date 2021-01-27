@@ -35,7 +35,7 @@
   <div class="image_size_1 ms-auto" ></div>
      
   <div class="content">
-        <div class="" style="background-color: rgba(0, 0, 0, 0.7)">
+    <div class="" style="background-color: rgba(0, 0, 0, 0.7)">
      <div class="container-fluid welcomeBody shadow-lg">
        <div class="container p-2">
        <div class='row p-3 '>
@@ -102,8 +102,7 @@
         
        
         
-        <hr class="clearfix my-3">     
- 
+        <hr class="clearfix my-5">     
        <div class="container py-5 shadow-lg overlay bg-white">
        
        <!-- Card 1-->
@@ -201,7 +200,7 @@
         </div>
         <hr class="clearfix my-5">   
         </div> 
-        </div>
+       </div>
 
         <div class="container pb-5">
         <div class="row p-5 shadow-lg myMask" style="border-radius: 100px;">

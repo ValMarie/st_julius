@@ -1,11 +1,10 @@
 <!-- Footers -->
 <!-- footer signup -->
-
     
-
 <hr class="clearfix my-5 w-100"> 
-<footer class="page-footer font-small pt-4 ">
-  <h5 class=' flex-center mb-3'>Sign up for our newsletter </h5>
+<footer class="page-footer font-small pt-4">
+
+  
   <!-- Footer Search -->
   <div class="container">
 
@@ -14,11 +13,11 @@
 
       <!--Grid column-->
       <div class="col-md-6 mx-auto">
-
+      <h5 > Sign up for our Newsletter </h5>
         <form class="input-group ">
           <input type="text" class="form-control form-control-sm" id='email' placeholder="Your email" aria-label="Your email" aria-describedby="basic-addon2">
           <div class="input-group-append">
-            <button class="btn btn-sm btn-outline-white  " type="button">Sign up</button>
+            <button class="btn btn-sm btn-outline-white  py-2 mx-2" type="button">Sign up</button>
           </div>
         </form>
 
@@ -97,19 +96,19 @@
 
         <ul class="list-unstyled text-white">
           <li>
-              <i class="fas fa-map-marker-alt mr-3"></i> Orudu Junction, Opeilu Road, Agbado
+              <i class="fas fa-map-marker-alt mx-2"></i> Orudu Junction, Opeilu Road, Agbado
           </li>
           <li>
-              <i class="fas fa-envelope mr-3"></i> P. O. Box 173, Ifo, Ogun State, Nigeria
+              <i class="fas fa-envelope mx-2"></i> P. O. Box 173, Ifo, Ogun State, Nigeria
           </li>
           <li>
-              <i class="fas fa-at mr-3"></i> stjuliusagbado@gmail.com
+              <i class="fas fa-at mx-2"></i> stjuliusagbado@gmail.com
           </li>
           <li>
-              <i class="fas fa-phone mr-3"></i> + 234 706 155 7070
+              <i class="fas fa-phone mx-2"></i> + 234 706 155 7070
           </li>
           <li>
-          <i class="fab fa-facebook mr-3"></i> St Julius Catholic Church, Agbado
+          <i class="fab fa-facebook mx-2"></i> St Julius Catholic Church, Agbado
           </li>
         </ul>
       </div>
@@ -124,7 +123,7 @@
 </Footer>
 
 <!-- Copyright -->
-<footer class="footer-copyright font-small py-2">>
+<footer class="footer-copyright font-small py-2">
   <div class="text-white text-center">All rights reserved © 2020 Copyright:
     <a class="link" href="#"> St. Julius Catholic Church Agbado.</a>
   </div>
