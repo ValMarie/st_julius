@@ -262,8 +262,8 @@
               
 
               <!-- Parish Schedule -->
-             <div class="container p-4">
-             <hr class="clearfix my-5">     
+             <div class="container px-4 pt-4">
+             <hr class="clearfix mb-5">     
               <div class="row">
 
                 <div class="row">

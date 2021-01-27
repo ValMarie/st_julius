@@ -86,7 +86,7 @@
    <!--Navbar-->
       <nav class="navbar navbar-expand-lg transparent navbar-light fixed-top white-text" id="">
 
-        <div class="container d-flex">
+        <div class="container">
 
       
         <!-- Navbar brand -->
