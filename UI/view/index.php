@@ -236,14 +236,14 @@
                     <img class="w-100" src="../../assets/at_parish_event.jpg"
                       alt="Second slide">
                   </div>
-                  <div class="carousel-item">
+                  <!-- <div class="carousel-item">
                     <img class="w-100" src="../../assets/.jpg"
                       alt="Third slide">
                   </div>
                   <div class="carousel-item">
                     <img class="w-100" src="../../assets/.jpg"
                       alt="Fourth slide">
-                  </div>
+                  </div> -->
 
                   <a class="carousel-control-prev" href="#carouselAbout" role="button" data-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>

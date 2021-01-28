@@ -49,7 +49,8 @@
 // tab for Liturgical calendar
 
 // Card for News Feeds 
- const newsApiKey = 'd1f07837eb494291bbbb2f973ff0fa76';
+ const newsApiKey =  'd1f07837eb494291bbbb2f973ff0fa76';
+//  92886fdfe9864321bdc7d12bfda26534";
  const newsApiUrl = "http://newsapi.org/v2/everything?domains=catholicnewsagency.com&apiKey="+ newsApiKey;
 
   let nf = document.getElementById('newsFeeds');
@@ -90,8 +91,9 @@
     //   nf.appendChild(moreNews);
 
     //   moreNews.innerHTML = "See More >>";
+
       
-    // })
+     })
     .catch(function(error) {
       console.log(error);
     });   
