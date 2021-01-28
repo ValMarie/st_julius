@@ -1,7 +1,7 @@
 <?php include("./includes/header.php"); ?>
  
 
-<div class="row  mb-6 " style="background-color: rgba(0, 0, 0, 0.8)">
+<div class="row  mb-5 " style="background-color: rgba(0, 0, 0, 0.8)">
   <div class="myHero">
     <div class="mask" style="background-color: rgba(0, 0, 0, 0.7)">
      <div class="col-md-7 ms-auto" >
@@ -16,10 +16,10 @@
        </div>
 
 <!-- Liturgical calendar for Today-->
-<div class="container p-2">
-<div class="row mr-5 ml-5 ">
+<div class="container p-2 ">
+<div class="row mx-5 myMask shadow-lg">
 <div class="col-md-6">
-   <div class="shadow-lg " id="liturgical_calendar_today" >
+   <div id="liturgical_calendar_today" >
        <p class="text-center">
          <div id='liturgical-date-tdy'></div>
          <div id='liturgical-celebration-tdy'></div>
@@ -31,7 +31,7 @@
 
  <!-- Liturgical calendar for Tomorrow -->
  <div class="col-md-6">
-     <div class="shadow-lg " id="liturgical_calendar_tomorrow">
+     <div id="liturgical_calendar_tomorrow">
        <p class="text-center">
          <div id='liturgical-date-tmr'></div>
          <div id='liturgical-celebration-tmr'></div>
@@ -47,8 +47,8 @@
       
 
          <!-- News Feeds links -->
-      <div class="col-md-6 shadow-lg mx-5 ">
-        <div class=' p-4 mx-2 my-0 bg-white'>
+      <div class="col-md-5  mx-5" style="margin-top: -30vh;">
+        <div class=' p-4 mx-2 my-0 shadow-lg bg-white'>
           <h2 class="lead f_regular">
             News Feeds
           </h2>
@@ -77,7 +77,7 @@
 
 
 
-  <div class="image_size_1 ms-auto" ></div>
+  <div class="image_size_1 ms-auto shadow-lg" ></div>
      
   <div class="content">
     <div class="" style="background-color: rgba(0, 0, 0, 0.7)">
@@ -124,9 +124,7 @@
          <!-- Card -->
           <div class="col-md-4 mx-auto">
               <a href="#">
-              <div class="shadow-lg card-image card-image-x">
-                    <p>Our History</p>
-              </div>
+              <div class="shadow-lg card-image card-image-x"></div>
               </a>
           </div>
            
@@ -172,9 +170,7 @@
            <div class="col-md-4 p-3 mx-auto">             
             <a href="#">
               <div class="shadow-lg card-image card-image-y">
-                <div class="text-white text-center align-items-center py-5 px-5">
-                    <p> Know Your Faith</p>
-                </div>
+                  <div class="text-white text-center align-items-center py-5 px-5"></div>
               </div>
             </a>
           </div>
@@ -186,10 +182,8 @@
             <!-- Card -->
             <div class="col-md-4 p-3 mx-auto">             
               <a href="#">
-                <div class="shadow-lg card-image card-image-z">
-                  <div class=" text-center align-items-center py-5 px-5">
-                      <p> Ask The Priest</p>
-                  </div>
+                <div class="shadow-lg card-image card-image-z ">
+                    <div class=" text-center align-items-center py-5 px-5"></div>
                 </div>
               </a>
             </div>
@@ -225,12 +219,12 @@
         </div>
  
             <div class="row p-3">
-              <div class="col-md-12">
+              <div class="col-md-^">
                 <h3 class="f_regular text-center"> EVENTS IN PICTURES </h3>
               </div>
             </div>
             
-               <div class="carousel slide carousel-slide pb-2 pt-5" id="carouselAbout" data-ride="carousel">
+               <div class="carousel slide carousel-slide py-5" id="carouselAbout" data-ride="carousel">
                <ol class="carousel-indicators">
                   <li
                     data-target="#carouselAbout"
@@ -240,7 +234,7 @@
                   <li data-target="#carouselAbout" data-slide-to="1"></li>
                   <li data-target="#carouselAbout" data-slide-to="2"></li>
                 </ol>
-                <div class="carousel-inner" id="carouselSlide" style="height: 100vh;" >
+                <div class="carousel-inner" id="carouselSlide">
                   <div class="carousel-item active">
                     <img class="w-100" src=" ../../assets/parish_priests.jpg"
                       alt="First slide">
