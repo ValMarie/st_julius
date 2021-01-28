@@ -20,8 +20,8 @@
     c1.innerHTML = data.celebrations[0].title + ', ';
     lc1.innerHTML = data.celebrations[0].colour;
 
-    sn1.style.backgroundColor = data.celebrations[0].colour;
-    data.celebrations[0].colour == 'white' ? sn1.style.color = 'black': sn1.style.color = 'white';   
+    sn1.style.color = data.celebrations[0].colour;
+    // data.celebrations[0].colour == 'white' ? sn1.style.color = 'black': sn1.style.color = 'white';   
 
   })
  
@@ -37,8 +37,8 @@
   c2.innerHTML = data.celebrations[0].title + ', ';
   lc2.innerHTML = data.celebrations[0].colour;
 
-  sn2.style.backgroundColor = data.celebrations[0].colour;
-  data.celebrations[0].colour == 'white' ? sn2.style.color = 'black': sn2.style.color = 'white'; 
+  sn2.style.color = data.celebrations[0].colour;
+  // data.celebrations[0].colour == 'white' ? sn2.style.color = 'black': sn2.style.color = 'white'; 
       
   })
 

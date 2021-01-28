@@ -1,7 +1,7 @@
 <?php include("./includes/header.php"); ?>
  
 
-<div class="row  mb-5 " style="background-color: rgba(0, 0, 0, 0.8)">
+<div class="row  mb-6 " style="background-color: rgba(0, 0, 0, 0.8)">
   <div class="myHero">
     <div class="mask" style="background-color: rgba(0, 0, 0, 0.7)">
      <div class="col-md-7 ms-auto" >
@@ -14,13 +14,41 @@
         </div>
 
        </div>
+
+<!-- Liturgical calendar for Today-->
+<div class="container p-2">
+<div class="row mr-5 ml-5 ">
+<div class="col-md-6">
+   <div class="shadow-lg " id="liturgical_calendar_today" >
+       <p class="text-center">
+         <div id='liturgical-date-tdy'></div>
+         <div id='liturgical-celebration-tdy'></div>
+         <div id='liturgical-color-tdy'></div>
+       </p> 
+   </div>
+ </div>
+ <!-- Liturgical calendar for Today-->
+
+ <!-- Liturgical calendar for Tomorrow -->
+ <div class="col-md-6">
+     <div class="shadow-lg " id="liturgical_calendar_tomorrow">
+       <p class="text-center">
+         <div id='liturgical-date-tmr'></div>
+         <div id='liturgical-celebration-tmr'></div>
+         <div id='liturgical-color-tmr'></div>
+       </p>
+     </div>
+   </div>
+   </div>
+   </div>
+<!-- Liturgical calendar for Tomorrow-->
       </div>
 
       
 
          <!-- News Feeds links -->
-      <div class="col-md-5 shadow-lg mx-5 ">
-        <div class=' p-4 mx-3 my-0 bg-white'>
+      <div class="col-md-6 shadow-lg mx-5 ">
+        <div class=' p-4 mx-2 my-0 bg-white'>
           <h2 class="lead f_regular">
             News Feeds
           </h2>
@@ -32,13 +60,30 @@
    </div>
   </div>
 
+ 
+         <!--Card  -->
+           <!--Liturgical calendar Card-->            
+           
+ 
+ 
+
+ 
+ 
+                 
+ 
+           <!--Liturgical calendar Card-->        
+         <!-- Card -->
+
+
+
+
   <div class="image_size_1 ms-auto" ></div>
      
   <div class="content">
     <div class="" style="background-color: rgba(0, 0, 0, 0.7)">
      <div class="container-fluid welcomeBody shadow-lg">
-       <div class="container p-2">
-       <div class='row p-3 '>
+       <div class="container p-4">
+       <div class='row  '>
          
         <!-- Welocome address -->
            <div class="col-md-* text-center">
@@ -65,39 +110,7 @@
      </div>
 
      
-       <!-- <div class="container p-5"> -->
-         <!--Card  -->
-           <!--Liturgical calendar Card-->            
-           <!-- <div class="row mr-5 ml-5 myCards"> -->
- 
- <!-- Liturgical calendar for Today-->
- <!-- <div class="col-md-6">
-   <div class="shadow-lg myCard" id="liturgical_calendar_today" >
-       <h3 class="text-center">
-         <div id='liturgical-date-tdy'></div>
-         <div id='liturgical-celebration-tdy'></div>
-         <div id='liturgical-color-tdy'></div>
-       </h3> 
-   </div>
- </div> -->
- <!-- Liturgical calendar for Today-->
-
- <!-- Liturgical calendar for Tomorrow -->
-   <!-- <div class="col-md-6">
-     <div class="shadow-lg myCard" id="liturgical_calendar_tomorrow">
-       <h3 class="text-center">
-         <div id='liturgical-date-tmr'></div>
-         <div id='liturgical-celebration-tmr'></div>
-         <div id='liturgical-color-tmr'></div>
-       </h3>
-     </div>
-   </div> -->
- <!-- </div> -->
- <!-- </div> -->
-                 <!-- Liturgical calendar for Tomorrow-->
- 
-           <!--Liturgical calendar Card-->        
-         <!-- Card -->
+       
          
         
        

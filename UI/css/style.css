@@ -81,6 +81,7 @@
     background-attachment: fixed;  
     background-repeat: no-repeat;
     margin-top: -2vh;
+    z-index: 0;
 }
 
 .myMask{
@@ -99,7 +100,7 @@
     color: white !important;
     background: wheat;
     position: relative;
-    /* z-index: -2; */
+    z-index: 0 ;
 }
 .body{
     font-size: 1em;
@@ -252,13 +253,13 @@
 }
 
 .image_size_1 {
-    background-image: url("../../assets/Pope_Julius_II.jpg");
+    background-image: url("../../assets/church_front_view.jpg");
     width: 15em;
     height: 15em;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: -12em;
-    z-index: 3;
+    margin-top: -3em;
+    z-index: 2;
     position: relative;
     margin-right: 150px;
 }
