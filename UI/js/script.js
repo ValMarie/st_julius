@@ -1,70 +1,69 @@
 // tab for Liturgical calendar
 
-   const url_today = "http://calapi.inadiutorium.cz/api/v0/en/calendars/general-en/today";
-   const url_tmrrw = "http://calapi.inadiutorium.cz/api/v0/en/calendars/general-en/tomorrow";
+const url_today =
+  "http://calapi.inadiutorium.cz/api/v0/en/calendars/general-en/today";
+const url_tmrrw =
+  "http://calapi.inadiutorium.cz/api/v0/en/calendars/general-en/tomorrow";
 
-    let sn1 =  document.getElementById('liturgical_calendar_today');
-    let sn2 =  document.getElementById('liturgical_calendar_tomorrow');
-    let dt1 = document.getElementById('liturgical-date-tdy');
-    let dt2= document.getElementById('liturgical-date-tmr');
-    let c1 = document.getElementById('liturgical-celebration-tdy');
-    let c2 = document.getElementById('liturgical-celebration-tmr');
-    let lc1 = document.getElementById('liturgical-color-tdy');
-    let lc2 = document.getElementById('liturgical-color-tmr');
+let sn1 = document.getElementById("liturgical_calendar_today");
+let sn2 = document.getElementById("liturgical_calendar_tomorrow");
+let dt1 = document.getElementById("liturgical-date-tdy");
+let dt2 = document.getElementById("liturgical-date-tmr");
+let c1 = document.getElementById("liturgical-celebration-tdy");
+let c2 = document.getElementById("liturgical-celebration-tmr");
+let lc1 = document.getElementById("liturgical-color-tdy");
+let lc2 = document.getElementById("liturgical-color-tmr");
+let colorIndicator1 = document.getElementById("color-indicator-1");
+let colorIndicator2 = document.getElementById("color-indicator-2");
 
-    fetch(url_today,)
-    .then(response => response.json())
-    .then(data => {
-    
+fetch(url_today)
+  .then((response) => response.json())
+  .then((data) => {
     dt1.innerHTML = data.date;
-    c1.innerHTML = data.celebrations[0].title + ', ';
+    c1.innerHTML = data.celebrations[0].title + ", ";
     lc1.innerHTML = data.celebrations[0].colour;
 
-    sn1.style.color = data.celebrations[0].colour;
-    // data.celebrations[0].colour == 'white' ? sn1.style.color = 'black': sn1.style.color = 'white';   
-
+    colorIndicator1.style.background = data.celebrations[0].colour;
+    // data.celebrations[0].colour == 'white' ? sn1.style.color = 'black': sn1.style.color = 'white';
   })
- 
-  .catch(function(error) {
+
+  .catch(function (error) {
     console.log(error);
   });
 
-  fetch(url_tmrrw)
-  .then(response => response.json())
-  .then(data => {
-  
-  dt2.innerHTML = data.date;
-  c2.innerHTML = data.celebrations[0].title + ', ';
-  lc2.innerHTML = data.celebrations[0].colour;
-
-  sn2.style.color = data.celebrations[0].colour;
-  // data.celebrations[0].colour == 'white' ? sn2.style.color = 'black': sn2.style.color = 'white'; 
-      
+fetch(url_tmrrw)
+  .then((response) => response.json())
+  .then((data) => {
+    dt2.innerHTML = data.date;
+    c2.innerHTML = data.celebrations[0].title + ", ";
+    lc2.innerHTML = data.celebrations[0].colour;
+    colorIndicator2.style.background = data.celebrations[0].colour;
+    // data.celebrations[0].colour == 'white' ? sn2.style.color = 'black': sn2.style.color = 'white';
   })
 
-  .catch(function(error) {
+  .catch(function (error) {
     console.log(error);
-
   });
 // tab for Liturgical calendar
 
-// Card for News Feeds 
- const newsApiKey =  'd1f07837eb494291bbbb2f973ff0fa76';
+// Card for News Feeds
+const newsApiKey = "d1f07837eb494291bbbb2f973ff0fa76";
 //  92886fdfe9864321bdc7d12bfda26534";
- const newsApiUrl = "http://newsapi.org/v2/everything?domains=catholicnewsagency.com&apiKey="+ newsApiKey;
+const newsApiUrl =
+  "http://newsapi.org/v2/everything?domains=catholicnewsagency.com&apiKey=" +
+  newsApiKey;
 
-  let nf = document.getElementById('newsFeeds');
-  
-  fetch(newsApiUrl)
-    .then(response => response.json())
-    .then(function(data){
+let nf = document.getElementById("newsFeeds");
 
-      data.articles
-        .filter((news, i) => (i < 6))
-        .map((news) => {
-
+fetch(newsApiUrl)
+  .then((response) => response.json())
+  .then(function (data) {
+    console.log(data);
+    data.articles
+      .filter((news, i) => i < 6)
+      .map((news) => {
         let image = document.createElement("img");
-        image.setAttribute("src", news.urlToImage); 
+        image.setAttribute("src", news.urlToImage);
         image.style.maxHeight = "50px";
         image.setAttribute("class", "pt-2");
 
@@ -79,11 +78,11 @@
         nl.style.listStyleType = "none";
         nl.setAttribute("class", "p-2");
         nl.style.color = "rgb(173, 106, 18)";
-          anchor.appendChild(image);
-          anchor.appendChild(nl);
-  
+        anchor.appendChild(image);
+        anchor.appendChild(nl);
+
         nl.innerHTML = news.title;
-      })   
+      });
 
     //    let moreNews = document.createElement("a");
     //   moreNews.setAttribute("href", news.url);
@@ -91,16 +90,13 @@
     //   nf.appendChild(moreNews);
 
     //   moreNews.innerHTML = "See More >>";
-
-      
-     })
-    .catch(function(error) {
-      console.log(error);
-    });   
+  })
+  .catch(function (error) {
+    console.log(error);
+  });
 // Card for News Feeds
-
 
 const scrollToView = (id) => {
   let selected = document.querySelector(id);
-  selected.scrollIntoView({behavior: "smooth", block: "center"});
-}
+  selected.scrollIntoView({ behavior: "smooth", block: "center" });
+};

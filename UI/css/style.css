@@ -1,266 +1,307 @@
-*{
-    padding: 0px;
-    margin: 0px;
- }
- 
- body {
-   background: rgba(128, 128, 128, 0.205);
- }
- .content{
-    background-image: url('../../assets/eucharist_2.jpg');
-   background-position: center;
-   background-size: cover;
-   background-attachment: fixed;
-   background-repeat: none;
- }
-
- h1, h2, h3, h4, h5, h6 {
-    color: #e4932a;
-    font-weight: bold;
- }
-
- .f_regular {
-    font-family: 'Galada', cursive;
- }
- .f_pirata {
-    font-family: 'Pirata One', cursive;
-    text-shadow: 1px 1px 1px rgb(131, 79, 11);
- }
-
- nav{
-    font-family: 'Pirata One', cursive;
-     transition: opacity .25s ease-in-out;
-    -moz-transition: opacity .25s ease-in-out;
-    -webkit-transition: opacity .25s ease-in-out;
- }
-
- .nav-item{
-    padding-left: 10px;
-    padding-right: 10px;
- }
-
- .nav-item:hover{
-     border-bottom: 1px solid#e4932a;
- }
-
- .dropdown:hover .dropdown-menu {
-   background: #e4932ab0;
-   display: block;
-} 
-
-.dropdown-item{
-    color: white;
+* {
+  padding: 0px;
+  margin: 0px;
 }
 
-.dropdown-item:hover, .btn-rounded{
-   color:  #e4932a;
-   background: white;
+body {
+  background: rgba(128, 128, 128, 0.205);
+}
+.content {
+  background-image: url("../../assets/eucharist_2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: none;
 }
 
- .big-text{
-     font-size: 3.5em;
-     color: white;
-     margin-top: 100px;
-     padding: 100px 100px 10px 110px; 
-     font-weight: 100;
- }
-
- .small-text{
-     color: white;
-     font-style: italic;
-     font-size: 1.5em;
-     padding-left: 100px;
-     padding-bottom: 80px;
- }
- 
- .myHero{
-    height: 100vh;
-    background-image: url('../../assets/interior_3.jpg');
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;  
-    background-repeat: no-repeat;
-    margin-top: -2vh;
-    z-index: 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #e4932a;
+  font-weight: bold;
 }
 
-.myMask{
-    background-color: #583c27d0;
-    height: inherit;
+.f_regular {
+  font-family: "Galada", cursive;
+}
+.f_pirata {
+  font-family: "Pirata One", cursive;
+  text-shadow: 1px 1px 1px rgb(131, 79, 11);
 }
 
-.welcomeHead, .about_us_head, .project_head,
-.contact_head, .communities_head, .services_head {
-   font-size: 3.5em !important;
-   font-weight: 900;
-   font-family: "Noto serif", serif;
+nav {
+  font-family: "Pirata One", cursive;
+  transition: opacity 0.25s ease-in-out;
+  -moz-transition: opacity 0.25s ease-in-out;
+  -webkit-transition: opacity 0.25s ease-in-out;
 }
 
-.welcomeBody{
-    color: white !important;
-    background: wheat;
-    position: relative;
-    z-index: 0 ;
-    margin-top: -5vh;
-}
-.body{
-    font-size: 1em;
-    color: rgb(173, 106, 18);
-    word-spacing: 9px;
+.nav-item {
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
-.quotes{
-    font-style: italic;
-    text-align: center;
+.nav-item:hover {
+  border-bottom: 1px solid#e4932a;
 }
 
-.testimony{
-    background-image: url('../../assets/constrution.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    min-height: 50vh;
+.dropdown:hover .dropdown-menu {
+  background: #e4932ab0;
+  display: block;
 }
 
- button { 
-     background-color: rgb(131, 79, 11);
-     color: bisque;
-     width: 150px;
- }
-
- .myCards{
-     min-height: 100px;
- }
-
- .myCard{
-     min-height: 100px;
-     padding : 10px;
-
- }
-
- 
-.about_us{
-    background-image: url("../../assets/side_about.jpg");
-    background-attachment: fixed;
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size: cover;
-
- }
-
- .d-block{
-     opacity: 0.8;
-     max-height: 250px;
- }
-
-.p_priest{
-    background-image: url("../../assets/Fr_gilbert.jpg");
+.dropdown-item {
+  color: white;
 }
 
-.a_priest{
-     background-image: url("../../assets/aP.jpg");
- }
-
- .catechist{
-    background-image: url("https://images.pexels.com/photos/2232981/pexels-photo-2232981.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+.dropdown-item:hover,
+.btn-rounded {
+  color: #e4932a;
+  background: white;
 }
 
-.portriat{
-    color: white;
-    justify-content: end;
-    padding: 180px 0px 60px 100px;
-    font-size: 1.2em;
-    height: 200px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+.big-text {
+  font-size: 3.5em;
+  color: white;
+  margin-top: 100px;
+  padding: 100px 100px 10px 110px;
+  font-weight: 100;
 }
 
-.landscape{
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    justify-content: center;
-    height: 200px;
-    padding: 180px 0 60px 100px;
-    color: white;
+.small-text {
+  color: white;
+  font-style: italic;
+  font-size: 1.5em;
+  padding-left: 100px;
+  padding-bottom: 80px;
 }
 
- .project_subhead{
-     text-align: center;
- }
- .as{
-     background-image: url("https://images.pexels.com/photos/2675266/pexels-photo-2675266.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
- }
- .at{
-     background-image: url("https://as1.ftcdn.net/jpg/02/88/54/58/500_F_288545814_yJBQMt3guOwOVSbJmNHmmzoDBU5jAWvy.jpg");
- }
- .au{
-     background-image: url("https://images.pexels.com/photos/3009993/pexels-photo-3009993.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
- }
- .av{
-    background-image: url("https://images.pexels.com/photos/70419/pexels-photo-70419.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+.myHero {
+  height: 100vh !important;
+  background-image: url("../../assets/interior_3.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  z-index: 0;
 }
 
-.landscape_large{
-    min-height: 500px !important;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    color: white;
+.myMask {
+  background-color: #583c27d0;
+  height: inherit;
+  width: 100%;
 }
-.page-footer{
-   background-color: #583c27 !important;
-}
-.footer-copyright{
-   background: #4d301dd1;
-   }
 
-.communities_body{
-    background-image: url("https://cdn.dribbble.com/users/1841918/screenshots/10485272/media/a24eb75b40f5f6a3c6d465ad7b3edc8c.png");
-    }
+.welcomeHead,
+.about_us_head,
+.project_head,
+.contact_head,
+.communities_head,
+.services_head {
+  font-size: 3.5em !important;
+  font-weight: 900;
+  font-family: "Noto serif", serif;
+}
+
+.welcomeBody {
+  color: white !important;
+  background: wheat;
+  position: relative;
+  z-index: 0;
+}
+.body {
+  font-size: 1em;
+  color: rgb(173, 106, 18);
+  word-spacing: 9px;
+}
+
+.primary-color {
+  background: wheat;
+}
+
+.quotes {
+  font-style: italic;
+  text-align: center;
+}
+
+.testimony {
+  background-image: url("../../assets/constrution.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  min-height: 50vh;
+}
+
+button {
+  background-color: rgb(131, 79, 11);
+  color: bisque;
+  width: 150px;
+}
+
+.myCards {
+  min-height: 100px;
+}
+
+.myCard {
+  min-height: 100px;
+  padding: 10px;
+}
+
+.about_us {
+  background-image: url("../../assets/side_about.jpg");
+  background-attachment: fixed;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.d-block {
+  opacity: 0.8;
+  max-height: 250px;
+}
+
+.p_priest {
+  background-image: url("../../assets/Fr_gilbert.jpg");
+}
+
+.a_priest {
+  background-image: url("../../assets/aP.jpg");
+}
+
+.catechist {
+  background-image: url("https://images.pexels.com/photos/2232981/pexels-photo-2232981.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+}
+
+.portriat {
+  color: white;
+  justify-content: end;
+  padding: 180px 0px 60px 100px;
+  font-size: 1.2em;
+  height: 200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.landscape {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  justify-content: center;
+  height: 200px;
+  padding: 180px 0 60px 100px;
+  color: white;
+}
+
+.project_subhead {
+  text-align: center;
+}
+.as {
+  background-image: url("https://images.pexels.com/photos/2675266/pexels-photo-2675266.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+}
+.at {
+  background-image: url("https://as1.ftcdn.net/jpg/02/88/54/58/500_F_288545814_yJBQMt3guOwOVSbJmNHmmzoDBU5jAWvy.jpg");
+}
+.au {
+  background-image: url("https://images.pexels.com/photos/3009993/pexels-photo-3009993.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+}
+.av {
+  background-image: url("https://images.pexels.com/photos/70419/pexels-photo-70419.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+}
+
+.landscape_large {
+  min-height: 500px !important;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+.page-footer {
+  background-color: #583c27 !important;
+}
+.footer-copyright {
+  background: #4d301dd1;
+}
+
+.communities_body {
+  background-image: url("https://cdn.dribbble.com/users/1841918/screenshots/10485272/media/a24eb75b40f5f6a3c6d465ad7b3edc8c.png");
+}
 .services_body {
-    background-image: url("https://cdn.dribbble.com/users/4564986/screenshots/10768036/media/1191ecaa2fa2d37973f2b74b484a4f1b.jpg");
+  background-image: url("https://cdn.dribbble.com/users/4564986/screenshots/10768036/media/1191ecaa2fa2d37973f2b74b484a4f1b.jpg");
 }
-.communities_body, .services_body {
-    min-height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
+.communities_body,
+.services_body {
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
- .card-image-x { 
-    background-image: url('../../assets/vatican.jpg');
+.card-image-x {
+  background-image: url("../../assets/vatican.jpg");
 }
 .card-image-y {
-    background-image: url('../../assets/bible_n_rosary.jpg');
+  background-image: url("../../assets/bible_n_rosary.jpg");
 }
 .card-image-z {
-    background-image: url('../../assets/The_Priest.jpg');
+  background-image: url("../../assets/The_Priest.jpg");
 }
 
-.card-image-x, .card-image-y, .card-image-z {
-    background-repeat: no-repeat;
-    background-size: cover; 
-    color: white;
-    min-height: 200px;
+.card-image-x,
+.card-image-y,
+.card-image-z {
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  min-height: 200px;
 }
- 
-.link{
-    color: white;
+
+.link {
+  color: white;
 }
-.link:hover, .link:active{
-    color: #e4932a;
-    border-bottom: 1px solid #e4932a;   
+.link:hover,
+.link:active {
+  color: #e4932a;
+  border-bottom: 1px solid #e4932a;
 }
 
 .image_size_1 {
-    background-image: url("../../assets/church_front_view.jpg");
-    width: 15em;
-    height: 15em;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-top: -5em;
-    z-index: 2;
-    position: relative;
-    margin-right: 150px;
+  background-image: url("../../assets/church_front_view.jpg");
+  width: 100%;
+  height: 15em;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -5em;
+  z-index: 2;
+  position: relative;
+  margin-right: 150px;
+}
+
+.side-news{
+    height: 400px;
+    overflow-y: scroll;
+}
+
+.corner-2{
+    border-radius: 20px !important;
+}
+
+.white-body{
+    background: #fff;
+}
+
+.no-overflow{
+    overflow-x: hidden;
+}
+
+.indicator{
+    width: 50px;
+    height: 50px;
+}
+
+.float-right{
+    display: flex !important;
+    justify-content: end !important;
 }
