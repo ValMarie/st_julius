@@ -7,24 +7,12 @@
         <div class="myHero">
           <div class="mask" style="background-color: rgba(0, 0, 0, 0.7)">
             <div class="row">
-              <div class="col-md-7 ms-auto">
-                <div class=" mx-5 pb--5" style="background-color: rgba(0, 0, 0, 0.8)">
-                  <div class="big-text " id="startchange">
-                    Be still and know that I am God.
-                  </div>
-                  <div class="small-text ">
-                    "... the Lord of host has come..."
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-5">
+              <div class="col-md-5 p-5 cal-container">
                 <!-- Liturgical calendar for Today-->
-                <div class="container white-body p-3">
+                <div class="container p-3" style="background-color: rgba(0, 0, 0, 0.8)">
                   <div class="row pl-4">
                     <div class="col-md-6">
-                    <div id="color-indicator-1" class="indicator shadow-lg float-right corner-2"></div>
+                      <div id="color-indicator-1" class="indicator shadow-lg float-right corner-2"></div>
                       <div id="liturgical_calendar_today">
                         <p class="text-center">
                           <div id='liturgical-date-tdy'></div>
@@ -34,10 +22,9 @@
                       </div>
                     </div>
                     <!-- Liturgical calendar for Today-->
-
                     <!-- Liturgical calendar for Tomorrow -->
                     <div class="col-md-6">
-                    <div id="color-indicator-2" class="indicator shadow-lg corner-2"></div>
+                      <div id="color-indicator-2" class="indicator shadow-lg corner-2"></div>
                       <div id="liturgical_calendar_tomorrow">
                         <p class="text-center">
                           <div id='liturgical-date-tmr'></div>
@@ -50,6 +37,20 @@
                 </div>
                 <!-- Liturgical calendar for Tomorrow-->
               </div>
+              <div class="col-md-7 ms-auto">
+                <div class="" style="background-color: rgba(0, 0, 0, 0.8)">
+                  <div class="big-text" id="startchange">
+                    Be still and know that I am God.
+                  </div>
+                  <div class="small-text">
+                    "... the Lord of host has come..."
+                  </div>
+                </div>
+              </div>
+            </div>
+            <hr class="hidden">
+            <div class="row" style="margin-top: -40px">
+
             </div>
           </div>
 
@@ -58,7 +59,7 @@
     </div>
   </div>
 
-  <div class="container-fluid">
+  <div class="container-fluid lower-body">
     <div class="row">
       <div class="col-md-12">
         <div class="content">
@@ -84,9 +85,9 @@
               </div>
               <div class="col-md-4">
                 <!-- News Feeds links -->
-                <div class="mr-auto p-3" style=" z-index: 3000;">
-                  <div class=' p-4 mx-2 my-0 shadow-lg bg-white side-news'>
-                    <h2 class="lead f_regular">
+                <div class="p-3" style=" z-index: 3000;">
+                  <div class=' my-0 shadow-lg bg-white side-news'>
+                    <h2 class="lead f_regular p-3 ml-3">
                       News Feeds
                     </h2>
                     <ul id="newsFeeds" style="font-size: 0.8em;"></ul>
@@ -97,13 +98,6 @@
               <!-- <div class="image_size_1 ms-auto shadow-lg"></div> -->
             </div>
           </div>
-
-
-
-
-
-
-
 
           <hr class="clearfix my-5">
           <div class="container py-5 shadow-lg overlay bg-white">
@@ -121,7 +115,7 @@
               <!-- Content -->
               <div class="col-md-6 mx-auto">
 
-                <div class=" px-5 py-3">
+                <div class="py-3">
                   <h3 class="card-title orange-text pt-2"><strong> Our History </strong></h3>
                   <p class="body">
 
@@ -142,7 +136,7 @@
               <!-- Content -->
               <div class="col-md-6 mx-auto">
 
-                <div class="pr-5 py-3">
+                <div class="py-3">
                   <h3 class="card-title orange-text pt-2"><strong> Know Your Faith</strong></h3>
                   <p class="body">
 
@@ -185,7 +179,7 @@
               <!-- Content -->
               <div class="col-md-6 mx-auto">
 
-                <div class="px-5 py-3">
+                <div class="py-3">
                   <h3 class="card-title orange-text pt-2"><strong>Ask the Priest</strong></h3>
                   <p class="body">
 
@@ -262,7 +256,7 @@
 
       <div class="row">
         <div class="col-md-4 p-5">
-          <h4 class=""> Mass Schedules</h4>
+          <h4 class="text-center"> Mass Schedules</h4>
           <p class="body text-center">
             <strong>Sundays</strong> -6:30am, 8:00am and 9:30am; Benediction - 5:30pm
             <strong>Weekdays</strong> Monday - Fridays - 6:30am; Saturdays 7:00am
@@ -272,7 +266,7 @@
         </div>
 
         <div class="col-md-4 p-5">
-          <h4 class="">Catechism Classes</h4>
+          <h4 class="text-center">Catechism Classes</h4>
           <p class="body text-center">
             <strong>Saturdays and Sundays</strong> 3:00pm – 5:00pm.
             <strong>Thursdays</strong> 8:00am (for adults).
@@ -281,7 +275,7 @@
         </div>
 
         <div class="col-md-4 p-5">
-          <h4 class=""> Sacraments</h4>
+          <h4 class="text-center"> Sacraments</h4>
           <p class="body text-center">
             <strong>Baptism</strong>- Every last Saturday of the month
             <strong>Marriage</strong>- Every 1st and 3rd Saturday of the month. Marriage classes - Sundays 4:00pm

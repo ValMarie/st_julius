@@ -80,7 +80,7 @@ nav {
 }
 
 .myHero {
-  height: 100vh !important;
+  min-height: 100vh !important;
   background-image: url("../../assets/interior_3.jpg");
   background-size: cover;
   background-position: center;
@@ -101,7 +101,7 @@ nav {
 .contact_head,
 .communities_head,
 .services_head {
-  font-size: 3.5em !important;
+  font-size: 2.5em !important;
   font-weight: 900;
   font-family: "Noto serif", serif;
 }
@@ -279,29 +279,56 @@ button {
   margin-right: 150px;
 }
 
-.side-news{
-    height: 400px;
-    overflow-y: scroll;
+.side-news {
+  height: 400px;
+  overflow-y: scroll;
 }
 
-.corner-2{
-    border-radius: 20px !important;
+.corner-2 {
+  border-radius: 20px !important;
 }
 
-.white-body{
-    background: #fff;
+.white-body {
+  background: #fff;
 }
 
-.no-overflow{
-    overflow-x: hidden;
+.no-overflow {
+  overflow-x: hidden;
 }
 
-.indicator{
-    width: 50px;
-    height: 50px;
+.indicator {
+  width: 50px;
+  height: 50px;
 }
 
-.float-right{
-    display: flex !important;
-    justify-content: end !important;
+.float-right {
+  display: flex !important;
+  justify-content: end !important;
+}
+
+.hidden{
+    display: none;
+}
+
+.cal-container{
+    margin-top: 240px;
+    color: white !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .big-text {
+    font-size: 1.5em !important; 
+    color: white;
+    margin-top: 150px;
+    padding: 20px !important;
+    font-weight: 10;
+  }
+
+  .small-text{
+      font-size: 1.3em;
+  }
+
+  .hidden{
+      display: block;
+  }
 }

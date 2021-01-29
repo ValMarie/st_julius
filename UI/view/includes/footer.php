@@ -124,7 +124,7 @@
 
 <!-- Copyright -->
 <footer class="footer-copyright font-small py-2">
-  <div class="text-white text-center">All rights reserved © 2020 Copyright:
+  <div class="text-white text-center">All rights reserved © <span id="date"></span> Copyright:
     <a class="link" href="#"> St. Julius Catholic Church Agbado.</a>
   </div>
 </footer>
@@ -159,7 +159,8 @@
     $(".nav-link").css({
        color: '#fff'
      });
-   
+     
+     $("#date").html(new Date().getFullYear().toString())
 
     var scroll_start = 0;
     var startchange = $('#startchange');
