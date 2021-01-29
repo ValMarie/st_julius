@@ -1,11 +1,11 @@
 <?php include("./includes/header.php"); ?>
  
 
-<div class="row  mb-5 " style="background-color: rgba(0, 0, 0, 0.8)">
+<div class="row  mb-5 ">
   <div class="myHero">
-    <div class="mask" style="background-color: rgba(0, 0, 0, 0.7)">
+    <div class="mask" style="background-color: rgba(0, 0, 0, 0.65)">
      <div class="col-md-7 ms-auto" >
-       <div class=" mx-5 pb--5" style="background-color: rgba(0, 0, 0, 0.8)">
+       <div class=" mx-5 pb--5" style="background-color: rgba(0, 0, 0, 0.7)">
         <div class="big-text " id="startchange">
             Be still and know that I am God.
         </div>
@@ -209,10 +209,10 @@
         </div> 
        </div>
 
-        <div class="container pb-5">
-        <div class="row p-5 shadow-lg myMask" style="border-radius: 100px;">
+        <div class="container pb-5 ">
+        <div class="row p-5 shadow-lg myMask" style="border-radius: 100px; background-color: wheat; z-index: 1">
            <div class="col-md-4 mx-auto quotes">
-             <h1 class=" f_regular">Quote of the day</h1>
+             <h1 class=" f_pirata">Quote of the day</h1>
               <p class="body 1em"> "... Give and it shall be given unto you (... NRSV) ..."</p>
            </div>
          </div>
@@ -308,21 +308,21 @@
                   </div>
                 </div>
 
-              <hr class="clearfix my-5">     
+              <!-- <hr class="clearfix my-5">      -->
              </div>
            </div>
               <!-- Parish Schedule -->
 
 
-            <div class="container p-5">
+            <!-- <div class="container p-5">
               <div class="row myMask">
                 <div class="col-md-4 ">
-                  <img class="w-100" src="//nebula.wsimg.com/95077b3c30f31304d82a8a11602750b3?AccessKeyId=06D2F9FD645118A40673" alt="">
+                  <img class="w-100" src="'../../assets/eucharist_1.jpg" width="200px" height="40px" alt="">
                 </div>
 
                 <div class="col-md-4 ">
                   <h2 class="f_pirata "style= "font-size: 2.5em;">
-                    Baptism
+                    
                   </h2>
                   <h5 class="f_regular text-white">
                     “...and this water symbolizes baptism that now saves you also- not the removal of dirt from the body
@@ -332,7 +332,7 @@
               </div>
             </div>
           </div>
-            
+             -->
              
  <?php include("./includes/footer.php"); ?>
    
