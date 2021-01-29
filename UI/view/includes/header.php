@@ -95,7 +95,6 @@
             <div class="px-3 brand-name " >
               <img src="../../assets/Pope_Julius_II.jpg" width="55" height="55" alt=""  loading= "lazy">
             </div>
-
             
            <div class="f_pirata "><h6> Catholic Diocese of Abeokuta</h6> </div >
               <div class="f_pirata "><h4> Saint Julius Catholic Church</h4> </div >

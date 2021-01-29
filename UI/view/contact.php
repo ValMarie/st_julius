@@ -2,12 +2,12 @@
 
 <div class= "pb-5" id="startchange"></div>
 
-<div class="container-fluid pt-5">
-  <div class="container contact_us pt-5 ">
+<div class="pt-5">
+  <div class="contact_us py-5 px-5 mx-5">
   <div class="row pt-5">     
      <div class="col-md-7">
         <div class="">
-          <h1 class="contact_head ">Contact Us</h1>
+          <h2 class="contact_head ">Contact Us</h2>
         </div>
 
         <div class= "container p-5 ">
@@ -50,14 +50,12 @@
                 <i class="fab fa-facebook-f"></i>
                </button>
 
-               <button type="button" class="btn btn-primary btn-lg btn-floating">
-                <i class="fab fa-facebook-f"></i>
-               </button>
+              
               </div>
             </div>
         </div>
 
-        <div class="col-md-4 p-5 body my-5">
+        <div class="col-md-5 p-5 body my-5">
           <form action="#" method="POST">
           <div class="form-group">
             <label for="exampleFormControlInput1">Email address</label>
@@ -83,7 +81,8 @@
   </div> 
 
   <div class="shadow-lg mb-5 " >
-    <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.631787759136!2d3.3009648!3d6.6924463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b96fe53c699c7%3A0xe6ce6351788f79ac!2sSt%20Julius%20Catholic%20Church!5e0!3m2!1sen!2sng!4v1609261542191!5m2!1sen!2sng" width="1000vh" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>   
+    <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.631787759136!2d3.3009648!3d6.6924463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b96fe53c699c7%3A0xe6ce6351788f79ac!2sSt%20Julius%20Catholic%20Church!5e0!3m2!1sen!2sng!4v1609261542191!5m2!1sen!2sng" 
+              width="1320px" height="250px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>   
   </div>
         
   <?php include("./includes/footer.php") ?>

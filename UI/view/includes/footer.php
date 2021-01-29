@@ -1,7 +1,7 @@
 <!-- Footers -->
 <!-- footer signup -->
     
-<hr class="clearfix my-5 w-100"> 
+<hr class="clearfix my-3 w-100"> 
 <footer class="page-footer font-small pt-4">
 
   
