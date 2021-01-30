@@ -11,7 +11,7 @@
                 <!-- Liturgical calendar for Today-->
                 <div class="container p-3" style="background-color: rgba(0, 0, 0, 0.8)">
                   <div class="row pl-4">
-                    <div class="col-md-6">
+                    <div class="col-md-6 pt-3 pb-3">
                       <div id="color-indicator-1" class="indicator shadow-lg float-right corner-2"></div>
                       <div id="liturgical_calendar_today">
                         <p class="text-center">
@@ -47,10 +47,6 @@
                   </div>
                 </div>
               </div>
-            </div>
-            <hr class="hidden">
-            <div class="row" style="margin-top: -40px">
-
             </div>
           </div>
 

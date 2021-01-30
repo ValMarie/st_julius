@@ -3,7 +3,7 @@
 <div class="pb-5" id="startchange"></div>
 
 <div class="pt-5">
-  <div class="contact_us py-5 px-2 mx-5">
+  <div class="contact_us py-5 px-2">
     <div class="row p-5">
       <div class="col-md-7">
         <div class="">
@@ -73,7 +73,7 @@
           </div>
 
           <div class="mt-3">
-            <button class="btn btn-warning btn-rounded" data-ripple-color="rgb(173, 106, 18)"
+            <button class="btn btn-warning " data-ripple-color="rgb(173, 106, 18)"
               data-ripple-duration="3s">SUBMIT</button>
           </div>
         </form>
@@ -81,10 +81,10 @@
     </div>
     <div class="row">
       <div class="col-md-12">
-      <iframe
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.631787759136!2d3.3009648!3d6.6924463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b96fe53c699c7%3A0xe6ce6351788f79ac!2sSt%20Julius%20Catholic%20Church!5e0!3m2!1sen!2sng!4v1609261542191!5m2!1sen!2sng"
-      frameborder="0" style="border:0;" width="100%" height="250" allowfullscreen="" aria-hidden="false" class="shadow-lg"
-      tabindex="0"></iframe>
+        <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.631787759136!2d3.3009648!3d6.6924463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b96fe53c699c7%3A0xe6ce6351788f79ac!2sSt%20Julius%20Catholic%20Church!5e0!3m2!1sen!2sng!4v1609261542191!5m2!1sen!2sng"
+        frameborder="0" style="border:0;" width="100%" height="250" allowfullscreen="" aria-hidden="false" class="shadow-lg"
+        tabindex="0"></iframe>
       </div>
     </div>
   </div>
